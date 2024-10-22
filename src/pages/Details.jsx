@@ -66,7 +66,7 @@ const Details = () => {
         </div>
       </section>
 
-     {/*  <div className="h-24 w-full flex justify-end items-center lg:hidden">
+      {/*  <div className="h-24 w-full flex justify-end items-center lg:hidden">
         <div className="h-24 w-1/2 bg-teal-800 "> </div>
       </div> */}
 
@@ -74,6 +74,12 @@ const Details = () => {
         id="brand-section"
         className="w-full h-screen relative flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20"
       >
+        <figure className="w-[60%] h-20 absolute z-50 bottom-2 left-3 xl:bottom-4 xl:w-[50%]">
+          <div className="pattern"></div>
+        </figure>
+        <figure className="hidden lg:w-[10%] lg:h-20 lg:absolute z-50  lg:flex lg:top-4 lg:right-4 xl:bottom-4 xl:w-[20%]">
+          <div className="pattern"></div>
+        </figure>
         <img
           className="w-full  absolute inset-0 h-full object-cover  z-20 grayscale-[.7] shadow-sm"
           src={imgbg2}
@@ -88,8 +94,10 @@ const Details = () => {
             Cuidamos lo que te conecta
           </h6>
           <div className="w-full h-[2px] bg-zinc-200 mt-3 md:mt-4 2xl:mt-6"></div>
-          <p className="text-sm mt-4 text-stone-400
-           font-title2 font-medium md:text-base md:mt-5  xl:text-lg xl:mt-6 2xl:text-xl">
+          <p
+            className="text-sm mt-4 text-stone-400
+           font-title2 font-medium md:text-base md:mt-5  xl:text-lg xl:mt-6 2xl:text-xl"
+          >
             En <strong>Infinix Service</strong>, entendemos que los dispositivos
             móviles son una parte esencial de tu vida diaria. Ya sea para el
             trabajo, el entretenimiento o la comunicación, tu smartphone Infinix
