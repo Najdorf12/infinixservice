@@ -45,7 +45,7 @@ const Details = () => {
               </figure>
               <ul
                 id="box-glass"
-                className="font-title text-base text-balance flex flex-col justify-center shadow-md shadow-zinc-900 pl-3 pr-4 py-3 w-[70%] rounded-2xl rounded-l-none text-zinc-100 gap-1 xl:text-lg xl:py-3 h-full lg:h-20  border-zinc-500 border-t-[2px] border-b-[2px] "
+                className="font-title text-base text-balance flex flex-col justify-center shadow-md shadow-zinc-900 pl-3 pr-4 py-3 w-[70%] rounded-2xl rounded-l-none text-zinc-100 gap-1 xl:text-lg xl:py-3 h-full lg:h-[84px]  border-zinc-500 border-t-[2px] border-b-[2px] "
               >
                 <li className="flex items-start gap-2 h-max lg:max-w-fit xl:gap-2">
                   <i className="text-primary bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>
