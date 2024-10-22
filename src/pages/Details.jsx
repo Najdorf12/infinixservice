@@ -82,7 +82,7 @@ const Details = () => {
 
         <article
           id="box-glass4"
-          className="flex flex-col items-start py-6 px-3 mt-8 z-50 w-full  border-zinc-100 border-[2px]  rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6 xl:py-8 2xl:py-10"
+          className="flex flex-col items-start py-6 px-3 mt-14 z-50 w-full  border-zinc-100 border-[2px]  rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6 xl:py-8 2xl:py-10"
         >
           <h6 className="text-4xl  text-balance  text-primary font-title2 font-bold md:text-5xl  xl:text-6xl 2xl:text-7xl">
             Cuidamos lo que te conecta
