@@ -34,7 +34,7 @@ const Home = () => {
 
         <div
           id="home2"
-          className="w-full h-full relative flex items-center justify-center -mt-3 md:mt-0 lg:w-1/2"
+          className="w-full h-full relative flex items-center justify-center -mt-3  lg:w-1/2"
         >
           <picture className="w-full h-full flex justify-center items-center">
             <img src={img2} alt="" className="w-full h-full object-cover grayscale-[.5]" />

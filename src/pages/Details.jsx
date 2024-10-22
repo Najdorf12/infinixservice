@@ -65,9 +65,11 @@ const Details = () => {
           />
         </div>
       </section>
-      <div className="h-24 w-full flex justify-end items-center lg:hidden">
+
+     {/*  <div className="h-24 w-full flex justify-end items-center lg:hidden">
         <div className="h-24 w-1/2 bg-teal-800 "> </div>
-      </div>
+      </div> */}
+
       <section
         id="brand-section"
         className="w-full h-screen relative flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20"
@@ -80,13 +82,13 @@ const Details = () => {
 
         <article
           id="box-glass4"
-          className="flex flex-col items-start py-6 px-3 mt-8 z-50 w-full  border-zinc-100 border-[2px]  rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6"
+          className="flex flex-col items-start py-6 px-3 mt-8 z-50 w-full  border-zinc-100 border-[2px]  rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6 xl:py-8 2xl:py-10"
         >
-          <h6 className="text-4xl  text-balance  text-zinc-800 lg:text-primary font-title2 font-bold md:text-5xl  xl:text-6xl 2xl:text-7xl">
+          <h6 className="text-4xl  text-balance  text-primary font-title2 font-bold md:text-5xl  xl:text-6xl 2xl:text-7xl">
             Cuidamos lo que te conecta
           </h6>
           <div className="w-full h-[2px] bg-zinc-200 mt-3 md:mt-4 2xl:mt-6"></div>
-          <p className="text-sm mt-4 text-stone-500 lg:text-stone-400
+          <p className="text-sm mt-4 text-stone-400
            font-title2 font-medium md:text-base md:mt-5  xl:text-lg xl:mt-6 2xl:text-xl">
             En <strong>Infinix Service</strong>, entendemos que los dispositivos
             móviles son una parte esencial de tu vida diaria. Ya sea para el

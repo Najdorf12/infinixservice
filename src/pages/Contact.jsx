@@ -3,7 +3,7 @@ import img2 from "/photos/serviciotecnico2.jpg";
 const Contact = () => {
   return (
     <>
-    <div className="h-24 w-1/2 bg-teal-800 lg:hidden"> </div>
+    {/* <div className="h-24 w-1/2 bg-teal-800 lg:hidden"> </div> */}
       <section
         id="contact-section"
         className="w-full relative bg-teal-800 h-screen flex flex-col lg:flex-row lg:h-screen pb-8 lg:pb-0"
