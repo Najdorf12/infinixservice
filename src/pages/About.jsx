@@ -68,7 +68,7 @@ const About = () => {
               </article>
               <figure className="w-full  flex justify-end md:mt-0 xl:-mt-10">
                 <img
-                  className="w-[90px] mr-1md:mr-8 xl:w-[130px] xl:mr-3 "
+                  className="w-[90px] mr-2 md:mr-8 xl:w-[130px] xl:mr-3 "
                   src={iconTech2}
                   alt=""
                 />
