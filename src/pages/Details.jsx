@@ -29,23 +29,23 @@ const Details = () => {
     <>
       <section
         id="third-section"
-        className="w-full relative  bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:flex-row lg:h-auto 2xl:h-screen"
+        className="w-full relative  bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:flex-row lg:h-auto 2xl:h-screen "
       >
         <div className="z-10 lg:w-1/2 flex flex-col justify-center items-center gap-3 lg:py-12">
           {iconsTech?.map((icon, i) => (
             <div
               key={i}
-              className="flex justify-center items-center z-50 relative w-full max-w-[500px] lg:max-w-[600px] 2xl:max-w-[700px]"
+              className="flex justify-center items-center z-50 relative w-full max-w-[500px] lg:max-w-[600px] 2xl:max-w-[700px] "
             >
               <figure
                 id="box-glass"
-                className="w-20 h-full flex justify-center items-center p-3 rounded-2xl rounded-r-none max-w-[200px] shadow-md shadow-zinc-900 border border-zinc-700 border-r-0 bg-gradient-to-tl from-teal-800 via-zinc-800 to-transparent"
+                className="w-20 h-full flex justify-center items-center p-3 rounded-2xl rounded-r-none max-w-[200px] shadow-md shadow-zinc-900  bg-gradient-to-tl from-teal-800 via-zinc-800 to-transparent border-zinc-500 border-t-[2px] border-b-[2px] "
               >
                 <img className="w-full" src={icon?.icon} alt="icon" />
               </figure>
               <ul
                 id="box-glass"
-                className="font-title text-base text-balance flex flex-col justify-center shadow-md shadow-zinc-900 pl-3 pr-4 py-3 w-[70%] rounded-2xl rounded-l-none text-zinc-100 gap-1 xl:text-lg xl:py-3 h-full lg:h-20 border-zinc-700"
+                className="font-title text-base text-balance flex flex-col justify-center shadow-md shadow-zinc-900 pl-3 pr-4 py-3 w-[70%] rounded-2xl rounded-l-none text-zinc-100 gap-1 xl:text-lg xl:py-3 h-full lg:h-20  border-zinc-500 border-t-[2px] border-b-[2px] "
               >
                 <li className="flex items-start gap-2 h-max lg:max-w-fit xl:gap-2">
                   <i className="text-primary bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>
@@ -81,8 +81,8 @@ const Details = () => {
         />
 
         <article
-          id="box-glass4"
-          className="flex flex-col items-start py-6 px-3 mt-14 z-50 w-full  border-zinc-100 border-[2px]  rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6 xl:py-8 2xl:py-10"
+          id="box-glass"
+          className="flex flex-col items-start py-6 px-3 mt-14 z-50 w-full  border-zinc-100 border-t-[2px] border-b-[2px]   rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6 xl:py-8 2xl:py-10"
         >
           <h6 className="text-4xl  text-balance  text-primary font-title2 font-bold md:text-5xl  xl:text-6xl 2xl:text-7xl">
             Cuidamos lo que te conecta

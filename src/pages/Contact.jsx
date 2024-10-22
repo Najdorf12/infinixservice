@@ -10,7 +10,7 @@ const Contact = () => {
       >
         {/* Contenedor del formulario */}
         <section className="relative z-10 w-full lg:w-1/2 flex flex-col justify-start items-center ">
-          <article id="box-glass" className="py-6  px-2 w-full  flex flex-col items-center justify-center text-center lg:text-left shadow-lg shadow-zinc-900 rounded-b-3xl bg-gradient-to-bl from-teal-800 via-zinc-800 to-zinc-800">
+          <article id="box-glass" className="py-6  px-2 w-full  flex flex-col items-center justify-center text-center lg:text-left shadow-lg shadow-zinc-900 rounded-b-3xl bg-gradient-to-bl from-teal-800 via-zinc-800 to-zinc-800 border-b-[2px] border-zinc-600">
             <h2
               style={{ animation: "appear 2s ease-out" }}
               className="text-6xl font-bold font-title2 text-primary lg:text-6xl xl:text-7xl 2xl:text-8xl"
