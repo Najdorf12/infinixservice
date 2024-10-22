@@ -12,22 +12,22 @@ const About = () => {
         <div className=" z-50 flex gap-2 flex-col justify-center items-center py-12 ">
           <div
             id="box-glass2"
-            className="border-[2px] border-pastel2 flex w-[91%] h-[180px] z-50 rounded-2xl md:h-[200px] max-w-[700px] 2xl:max-w-[800px] 2xl:h-[200px]  md:justify-between"
+            className="border-[2px] border-pastel2 flex w-[91%] max-w-[700px] h-[180px] z-50 rounded-2xl md:h-[200px] xl:max-w-[900px] xl:h-[230px]  md:justify-between 2xl:max-w-[950px] "
           >
-            <article className="font-text3 text-balance flex flex-col pl-3 pt-2 relative text-zinc-700">
-              <h6 className="text-lg font-medium md:text-xl text-primary">
+            <article className="font-text3 text-balance flex flex-col pl-3 pt-2 relative text-zinc-700 xl:pt-4 xl:pl-4">
+              <h6 className="text-lg font-medium md:text-xl text-primary xl:text-2xl">
                 Soluciones rápidas y eficientes
               </h6>
-              <p className="text-sm mt-1 md:text-base max-w-[300px] ">
+              <p className="text-sm mt-1 md:text-base max-w-[300px]  xl:mt-3 xl:text-lg xl:max-w-[400px]">
                 Tecnología de punta para identificar y resolver cualquier
                 problema
               </p>
-              <button className="mt-8 flex justify-start items-center gap-1 text-base text-zinc-600">
+              <button className="mt-8 flex justify-start items-center gap-1 text-base text-zinc-600 xl:text-lg">
                 Ver más
-                <i className="bx bx-chevron-right text-2xl text-primary"></i>
+                <i className="bx bx-chevron-right text-2xl text-primary xl:text-3xl"></i>
               </button>
             </article>
-            <figure className="absolute right-0 -bottom-2 z-50 w-[130px] md:w-[170px] md:relative   md:self-end md:mt-4 ">
+            <figure className="absolute right-0 -bottom-2 z-50 w-[130px] md:w-[170px] md:relative   md:self-end md:mt-4 xl:w-[230px] xl:right-6 ">
               <img className="w-full" src={iconTech} alt="" />
             </figure>
           </div>
@@ -35,19 +35,19 @@ const About = () => {
           <section className="flex w-full justify-center gap-2 z-50 ">
             <div
               id="box-glass2"
-              className="border-[2px] border-pastel2 w-[45%] h-[200px] rounded-2xl max-w-[348px] 2xl:max-w-[400px] 2xl:h-[200px]"
+              className="border-[2px] border-pastel2 w-[45%] h-[200px] rounded-2xl max-w-[348px] xl:max-w-[450px] xl:h-[220px]"
             >
-              <article className="font-text3 text-balance flex flex-col pl-3 pt-2">
-                <h6 className="text-lg font-medium md:text-xl text-primary">
+              <article className="font-text3 text-balance flex flex-col pl-3 pt-2 xl:pt-4 xl:pl-4">
+                <h6 className="text-lg font-medium md:text-xl text-primary  xl:text-2xl">
                   Soporte 24/7
                 </h6>
-                <p className="text-sm mt-1 text-zinc-700 md:text-base pr-3 ">
+                <p className="text-sm mt-1 text-zinc-700 md:text-base pr-3 xl:text-lg xl:max-w-[240px] xl:mt-3">
                   Equipo listo para asistirte cuando lo necesites.
                 </p>
               </article>
-              <figure className="w-full flex justify-end md:mt-0">
+              <figure className="w-full flex justify-end md:mt-0 xl:-mt-10 ">
                 <img
-                  className="w-[90px] mr-1 xl:w-[100px] md:mr-8 "
+                  className="w-[90px] mr-1 md:mr-8 xl:w-[130px]  xl:mr-3"
                   src={iconTech3}
                   alt=""
                 />
@@ -56,19 +56,19 @@ const About = () => {
 
             <div
               id="box-glass2"
-              className="border-[2px] border-pastel2 w-[45%] h-[200px]  rounded-2xl max-w-[348px] 2xl:max-w-[400px] 2xl:h-[200px] "
+              className="border-[2px] border-pastel2 w-[45%] h-[200px]  rounded-2xl max-w-[348px] xl:max-w-[450px] xl:h-[220px] "
             >
-              <article className="font-text3 text-balance flex flex-col pl-3 pt-2">
-                <h6 className="text-lg font-medium md:text-xl text-primary">
+              <article className="font-text3 text-balance flex flex-col pl-3 pt-2 xl:pt-4 xl:pl-4">
+                <h6 className="text-lg font-medium md:text-xl text-primary xl:text-2xl">
                   Garantía
                 </h6>
-                <p className="text-sm mt-1 text-zinc-700  md:text-base">
+                <p className="text-sm mt-1 text-zinc-700  md:text-base xl:mt-3 xl:text-lg">
                   Nos especializamos en una amplia gama de reparaciones
                 </p>
               </article>
-              <figure className="w-full  flex justify-end md:mt-0">
+              <figure className="w-full  flex justify-end md:mt-0 xl:-mt-10">
                 <img
-                  className="w-[90px] mr-1 xl:w-[100px] md:mr-8 "
+                  className="w-[90px] mr-1md:mr-8 xl:w-[130px] xl:mr-3 "
                   src={iconTech2}
                   alt=""
                 />
