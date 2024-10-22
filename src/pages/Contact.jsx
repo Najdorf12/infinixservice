@@ -9,8 +9,8 @@ const Contact = () => {
         className="w-full relative bg-teal-800 h-screen flex flex-col lg:flex-row lg:h-screen pb-8 lg:pb-0"
       >
         {/* Contenedor del formulario */}
-        <section className="relative z-10 w-full lg:w-1/2 flex flex-col justify-center items-center ">
-          <article id="box-glass" className="py-6  px-2 w-full xl:w-[80%] flex flex-col items-center justify-center text-center lg:text-left shadow-lg shadow-zinc-900 rounded-2xl bg-gradient-to-bl from-teal-800 via-zinc-800 to-zinc-800">
+        <section className="relative z-10 w-full lg:w-1/2 flex flex-col justify-start items-center ">
+          <article id="box-glass" className="py-6  px-2 w-full  flex flex-col items-center justify-center text-center lg:text-left shadow-lg shadow-zinc-900 rounded-b-3xl bg-gradient-to-bl from-teal-800 via-zinc-800 to-zinc-800">
             <h2
               style={{ animation: "appear 2s ease-out" }}
               className="text-6xl font-bold font-title2 text-primary lg:text-6xl xl:text-7xl 2xl:text-8xl"
