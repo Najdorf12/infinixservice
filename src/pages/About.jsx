@@ -7,9 +7,9 @@ const About = () => {
     <>
       <section
         id="second_section"
-        className="w-full h-auto font-title overflow-hidden relative flex flex-col justify-between pb-12 2xl:min-h-screen xl:pb-16 2xl:pb-24"
+        className="w-full h-auto font-title overflow-hidden relative flex flex-col justify-between pb-14 2xl:min-h-screen xl:pb-16 2xl:pb-24 bg-zinc-800"
       >
-        <div className=" z-50 flex gap-2 flex-col justify-center items-center py-12 xl:gap-4 ">
+        <div className=" z-50 flex gap-2 flex-col justify-center items-center py-6 xl:gap-4 ">
           <div
             id="box-glass2"
             className="border-[2px] border-pastel flex w-[91%] max-w-[700px] h-[180px] z-50 rounded-2xl md:h-[200px] xl:max-w-[900px] xl:h-[230px]  md:justify-between 2xl:max-w-[950px] shadow-lg shadow-zinc-600 bg-gradient-to-tl from-teal-800 via-zinc-800 to-zinc-800"
@@ -78,9 +78,9 @@ const About = () => {
         </div>
 
         {/* El último artículo toma el espacio restante */}
-        <article className="w-[95%] py-6 rounded-3xl self-center z-50 text-balance flex flex-col justify-start items-center relative flex-grow bg-gradient-to-br from-teal-800 via-zinc-800 to-zinc-800 shadow-xl shadow-zinc-500 max-w-[900px] lg:py-12 xl:py-16 xl:px-12 2xl:py-20 xl:max-w-[1100px] 2xl:max-w-[1350px] border-pastel border-t-[2px] border-b-[2px]">
+        <article className="w-[95%] mt-3 py-6 rounded-3xl self-center z-50 text-balance flex flex-col justify-start items-center relative flex-grow bg-gradient-to-br from-teal-800 via-zinc-800 to-zinc-800 shadow-xl shadow-zinc-500 max-w-[700px] lg:py-12 xl:mt-4 xl:py-16 xl:px-12  xl:max-w-[930px] 2xl:max-w-[1100px] border-pastel border-t-[2px] border-b-[2px]">
           <div className=" flex flex-col items-center  ">
-            <h5 className="font-title2 text-4xl font-medium z-50  text-center leading lg:text-5xl lg:text-nowrap xl:text-6xl 2xl:text-7xl text-white ">
+            <h5 className="font-title2 text-4xl font-medium z-50  text-center leading  lg:text-nowrap xl:text-5xl 2xl:text-6xl text-white ">
               ¿Por qué elegir Infinix Service?
             </h5>
             <div className="w-[90%] h-[2px] bg-primary mt-3 self-center lg:mt-6 lg:w-[95%] 2xl:w-[80%]"></div>
