@@ -35,35 +35,39 @@ const Home = () => {
           </figure>
           <figure className=" absolute z-0 bottom-2 left-o rounded-tr-2xl lg:bottom-0 lg:h-[20%] lg:w-[30%] bg-zinc-800">
             <div className="flex justify-center items-center w-full h-full gap-3 2xl:gap-4">
-              <p className="text-white font-title text-lg xl:text-xl 2xl:text-2xl">Visita nuestra Tienda</p>
+              <p className="text-white font-title text-lg xl:text-xl 2xl:text-2xl">
+                Visita nuestra Tienda
+              </p>
               <button className="button">
-                <div className="button__circle">
-                  <svg
-                    viewBox="0 0 14 15"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="button__icon"
-                    width="14"
-                  >
-                    <path
-                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
+                <a href="https://www.grupolacomunidad.com.ar/"  target="_blank">
+                  <div className="button__circle">
+                    <svg
+                      viewBox="0 0 14 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="button__icon"
+                      width="14"
+                    >
+                      <path
+                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
 
-                  <svg
-                    viewBox="0 0 14 15"
-                    fill="none"
-                    width="14"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="button__icon button__icon--copy"
-                  >
-                    <path
-                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </div>
+                    <svg
+                      viewBox="0 0 14 15"
+                      fill="none"
+                      width="14"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="button__icon button__icon--copy"
+                    >
+                      <path
+                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
               </button>
             </div>
           </figure>
