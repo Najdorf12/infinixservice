@@ -39,13 +39,13 @@ const Details = () => {
             >
               <figure
                 id="box-glass"
-                className="w-20  flex justify-center items-center p-3 rounded-2xl rounded-r-none shadow-md shadow-zinc-900  bg-gradient-to-tl from-teal-800 via-zinc-800 to-transparent border-zinc-500 border-t-[2px] border-b-[2px] lg:w-14 xl:w-16 2xl:w-20"
+                className="w-20  flex justify-center items-center p-3 rounded-2xl rounded-r-none shadow-md shadow-zinc-800  bg-gradient-to-tl from-teal-800 via-zinc-800 to-transparent border-pastel border-t-[2px] border-b-[2px] lg:w-14 xl:w-16 2xl:w-20"
               >
                 <img className="w-full" src={icon?.icon} alt="icon" />
               </figure>
               <ul
                 id="box-glass"
-                className="font-title h-full text-base text-balance flex flex-col justify-center shadow-md shadow-zinc-900 pl-3 pr-4 py-3  w-[70%] rounded-2xl rounded-l-none text-white gap-1 xl:text-lg   border-zinc-500 border-t-[2px] border-b-[2px] xl:text-nowrap 2xl:text-xl "
+                className="font-title h-full text-base text-balance flex flex-col justify-center shadow-md shadow-zinc-800 pl-3 pr-4 py-3  w-[70%] rounded-2xl rounded-l-none text-white font-semibold gap-1 xl:text-lg   border-pastel border-t-[2px] border-b-[2px] xl:text-nowrap 2xl:text-xl "
               >
                 <li className="flex items-start gap-2 lg:items-center lg:h-[32px] xl:gap-2 xl:h-[40px] 2xl:h-[56px] ">
                   <i className="text-primary bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>
