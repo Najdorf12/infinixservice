@@ -29,7 +29,7 @@ const Details = () => {
     <>
       <section
         id="third-section"
-        className="w-full relative  bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:flex-row  2xl:h-screen "
+        className="w-full relative  bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:flex-row  2xl:h-screen border-b-[2px] border-zinc-700"
       >
         <div className="z-10 lg:w-1/2 flex flex-col justify-center items-center gap-3 lg:py-12 xl:gap-4 2xl:gap-6  ">
           {iconsTech?.map((icon, i) => (
@@ -59,7 +59,7 @@ const Details = () => {
         {/* Imagen que estará a la derecha en pantallas grandes */}
         <figure className="w-full absolute lg:w-[50%] h-full lg:relative  ">
           <img
-            className="w-full h-full object-cover grayscale-[.7]"
+            className="w-full h-full object-cover grayscale-[.7] lg:rounded-tl-2xl border-t-[2px] lg:border-l-[2px] border-zinc-700"
             src={img}
             alt=""
           />
@@ -72,7 +72,7 @@ const Details = () => {
 
       <section
         id="brand-section"
-        className="w-full h-screen relative flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20"
+        className="w-full h-screen relative flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20 border-b-[2px] border-zinc-700"
       >
         <figure className="w-[60%] h-20 absolute z-50 bottom-2 left-3 xl:bottom-4 xl:w-[50%]">
           <div className="pattern-primary"></div>
@@ -88,7 +88,7 @@ const Details = () => {
 
         <article
           id="box-glass4"
-          className="flex flex-col items-start py-6 px-3 mt-14 z-50 w-full  border-white border-t-[2px] border-b-[2px]   rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6 xl:py-8 2xl:py-10 xl:mt-8 2xl:mt-12"
+          className="flex flex-col items-start py-6 px-3 mt-14 z-50 w-full  border-white border-t-[2px] border-b-[2px]   rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6 xl:py-8 2xl:py-10 xl:mt-8 2xl:mt-12 "
         >
           <h6 className="text-4xl  text-balance  text-primary font-title2 font-bold md:text-5xl  xl:text-6xl 2xl:text-7xl">
             Cuidamos lo que te conecta
