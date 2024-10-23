@@ -31,7 +31,7 @@ const Details = () => {
         id="third-section"
         className="w-full relative  bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:flex-row lg:h-auto 2xl:h-screen "
       >
-        <div className="z-10 lg:w-1/2 flex flex-col justify-center items-center gap-3 lg:py-12">
+        <div className="z-10 lg:w-1/2 flex flex-col justify-center items-center gap-3 lg:py-12  ">
           {iconsTech?.map((icon, i) => (
             <div
               key={i}
@@ -57,13 +57,13 @@ const Details = () => {
         </div>
 
         {/* Imagen que estará a la derecha en pantallas grandes */}
-        <div className="w-full  absolute  h-full lg:w-1/2 lg:relative">
+        <figure className="w-full absolute lg:w-[50%] h-full lg:relative  ">
           <img
-            className="w-full h-full object-cover grayscale-[.8] lg:static z-20 xl:right-0 shadow-xl"
-            src={imgbg3}
+            className="w-full h-full object-cover grayscale-[.7]"
+            src={img}
             alt=""
           />
-        </div>
+        </figure>
       </section>
 
       {/*  <div className="h-24 w-full flex justify-end items-center lg:hidden">
