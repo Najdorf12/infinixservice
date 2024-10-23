@@ -8,7 +8,7 @@ const Home = () => {
         id="home"
         className="z-50 w-full h-screen relative flex flex-col items-center lg:flex-row lg:justify-center "
       >
-        <nav className="bg-gradient-to-tr from-primary via-zinc-800 to-zinc-800 w-full absolute top-0 shadow-md shadow-zinc-200 flex justify-evenly py-2 font-title2 text-base text-white rounded-b-full md:w-[80%] self-center xl:text-lg 2xl:text-xl z-50 2xl:py-3">
+        <nav className="bg-gradient-to-tr from-primary via-zinc-800 to-zinc-800 w-full absolute top-0 shadow-md shadow-zinc-700 flex justify-evenly py-2 font-title2 text-base text-white rounded-b-full md:w-[80%] self-center xl:text-lg 2xl:text-xl z-50 2xl:py-3">
           <button className="font-title2">Infinix</button>
           <a href="#third-section">
             <button className="flex items-center justify-center rounded-full">
@@ -25,7 +25,7 @@ const Home = () => {
         <section className="pb-0 md:pb-3  lg:h-full lg:w-1/2 lg:flex  ">
           <picture className="w-full max-w-[500px] mt-20 flex gap-4 flex-col items-center justify-center lg:mt-0 xl:max-w-[750px] 2xl:max-w-[1000px]">
             <img src={logo} alt="" className="w-[95%] lg:w-[80%]" />
-            <p className="lg:w-[80%] text-center text-balance font-title font-semibold text-base text-stone-600 leading-5 z-50 xl:text-xl 2xl:text-2xl">
+            <p className="lg:w-[80%] text-center text-balance font-title font-semibold leading-4  text-base text-stone-500  z-50 xl:text-xl 2xl:text-2xl">
               Servicio técnico especializado <br />
               en dispositivos Infinix
             </p>
