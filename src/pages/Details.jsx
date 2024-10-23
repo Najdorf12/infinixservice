@@ -75,10 +75,10 @@ const Details = () => {
         className="w-full h-screen relative flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20"
       >
         <figure className="w-[60%] h-20 absolute z-50 bottom-2 left-3 xl:bottom-4 xl:w-[50%]">
-          <div className="pattern"></div>
+          <div className="pattern-primary"></div>
         </figure>
         <figure className="hidden lg:w-[10%] lg:h-20 lg:absolute z-50  lg:flex lg:top-4 lg:right-4 xl:bottom-4 xl:w-[20%]">
-          <div className="pattern"></div>
+          <div className="pattern-primary"></div>
         </figure>
         <img
           className="w-full  absolute inset-0 h-full object-cover  z-20 grayscale-[.7] shadow-sm"

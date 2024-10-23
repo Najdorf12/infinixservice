@@ -35,12 +35,22 @@
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(0px);
 }
-.pattern {
+.pattern-gray
+ {
   width: 100%;
   height: 100%;
   /* Add your background pattern here */
  
   background-image: radial-gradient(rgb(167, 164, 164) 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px
+}
+.pattern-primary {
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+ 
+  background-image: radial-gradient(rgb(146,195,73) 2px, transparent 0);
   background-size: 30px 30px;
   background-position: -5px -5px
 }
