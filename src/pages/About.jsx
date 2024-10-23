@@ -78,13 +78,13 @@ const About = () => {
         </div>
 
         {/* El último artículo toma el espacio restante */}
-        <article className="w-[95%] mt-3 py-6 rounded-3xl self-center z-50 text-balance flex flex-col justify-start items-center relative flex-grow bg-gradient-to-br from-teal-800 via-zinc-800 to-zinc-800 shadow-xl shadow-zinc-500 max-w-[700px] lg:py-12 xl:mt-4  xl:px-12  xl:max-w-[930px] 2xl:max-w-[1100px] border-pastel border-t-[2px] border-b-[2px]">
+        <article className="w-[95%] mt-3 py-6 rounded-3xl self-center z-50 text-balance flex flex-col justify-start items-center relative flex-grow bg-gradient-to-br from-teal-800 via-zinc-800 to-zinc-800 shadow-xl shadow-zinc-500 max-w-[700px] lg:py-12 xl:mt-4  xl:px-12  xl:max-w-[930px] 2xl:max-w-[1100px] border-pastel border-[2px] ">
           <div className=" flex flex-col items-center  ">
             <h5 className="font-title2 text-4xl font-medium z-50  text-center leading  lg:text-nowrap xl:text-5xl 2xl:text-6xl text-white ">
               ¿Por qué elegir Infinix Service?
             </h5>
             <div className="w-[90%] h-[2px] bg-primary mt-3 self-center lg:mt-6 lg:w-[95%] 2xl:w-[80%]"></div>
-            <p className="font-title px-4 text-balance text-sm font-semibold text-center max-w-[450px] mt-4 lg:text-base lg:mt-6 lg:max-w-[850px] xl:text-lg 2xl:text-xl 2xl:max-w-[1200px] 2xl:mt-8 text-zinc-300   xl:text-pretty ">
+            <p className="font-title px-4 text-balance text-sm font-normal text-center max-w-[450px] mt-4 lg:text-base lg:mt-6 lg:max-w-[850px] xl:text-lg 2xl:text-xl 2xl:max-w-[1200px] 2xl:mt-8 text-zinc-400   xl:text-pretty ">
               Con un servicio técnico especializado y confiable, garantizamos
               reparaciones precisas y duraderas. Desde simples ajustes hasta las
               reparaciones más complejas, nos aseguramos de brindarte una
