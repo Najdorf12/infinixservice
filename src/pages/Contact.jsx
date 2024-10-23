@@ -31,9 +31,9 @@ const Contact = () => {
           {/* Formulario */}
           <div
             style={{ animation: "slideInFromLeft 1s ease-out" }}
-            className="w-full max-w-md mt-6 lg:mt-10"
+            className="w-full max-w-md mt-6 lg:mt-8 2xl:mt-12"
           >
-            <form method="POST" action="#" className="space-y-8 px-6 lg:px-0 font-medium">
+            <form method="POST" action="#" className="space-y-8 px-6 lg:px-0 font-medium 2xl:space-y-9">
               <div className="relative">
                 <input
                   autoComplete="off"
@@ -69,7 +69,7 @@ const Contact = () => {
               id="box-glass4"
                 placeholder="Escribe tu consulta aquí ..."
                 name="textarea"
-                className="border-[2px] border-white text-white rounded-2xl w-full h-[150px] placeholder:text-stone-500 p-2 bg-transparent focus:border-primary focus:outline-none"
+                className="border-[2px] border-white text-white rounded-2xl w-full h-[150px] 2xl:h-[170px] placeholder:text-stone-500 p-2 bg-transparent focus:border-primary focus:outline-none"
               ></textarea>
 
               <button
