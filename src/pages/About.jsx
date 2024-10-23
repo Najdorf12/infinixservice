@@ -79,7 +79,7 @@ const About = () => {
         </div>
 
         {/* El último artículo toma el espacio restante */}
-        <article className="w-[95%] mt-3 py-6 rounded-3xl self-center z-50 text-balance flex flex-col justify-start items-center relative flex-grow bg-gradient-to-br from-teal-800 via-zinc-800 to-zinc-800 shadow-xl shadow-zinc-500 max-w-[500px] lg:max-w-[90%] lg:py-12 xl:py-14 xl:mt-6    border-pastel border-[2px] ">
+        <article className="w-[95%] mt-3 py-6 rounded-3xl self-center z-50 text-balance flex flex-col justify-start items-center relative flex-grow bg-gradient-to-br from-teal-800 via-zinc-800 to-zinc-800 shadow-xl shadow-zinc-500 max-w-[500px] lg:max-w-[90%] lg:py-12 xl:py-14 2xl:py-16 xl:mt-6    border-pastel border-[2px] 2xl:max-w-[85%] ">
           <div className=" flex flex-col items-center  ">
             <h5 className="font-title2 text-4xl font-medium z-50  text-center leading  lg:text-nowrap lg:text-5xl xl:text-6xl 2xl:text-7xl text-white ">
               ¿Por qué elegir Infinix Service?
