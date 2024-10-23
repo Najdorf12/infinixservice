@@ -19,11 +19,11 @@ const Contact = () => {
             </h2>
             <p
               style={{ animation: "appear 3s ease-out" }}
-              className="text-stone-400 mt-4 text-base font-semibold font-title text-center text-balance xl:max-w-[600px] 2xl:text-lg 2xl:max-w-[700px]"
+              className="text-stone-400 mt-4 text-base font-semibold font-title text-center text-balance xl:max-w-[600px] xl:mt-5 xl:text-lg 2xl:max-w-[700px]"
             >
               Elige Infinix Service para una experiencia donde la tecnología, la eficiencia y la satisfacción del cliente se combinan.
             </p>
-            <p className="text-white mt-4  text-base font-medium font-title max-w-[500px] xl:max-w-[600px] 2xl:max-w-[700px]">
+            <p className="text-white mt-4  text-base font-medium font-title max-w-[500px] xl:max-w-[600px] xl:text-lg 2xl:max-w-[700px] 2xl:text-xl">
               Ponte en contacto con nosotros o dejanos tu consulta.
             </p>
           </article>
