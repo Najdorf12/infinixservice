@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <section
         id="home"
-        className="z-50 w-full h-screen relative flex flex-col items-center lg:flex-row lg:justify-center bg-red-500"
+        className="z-50 w-full h-screen relative flex flex-col items-center lg:flex-row lg:justify-center "
       >
         <nav className="bg-gradient-to-tr from-primary via-zinc-800 to-zinc-800 w-full absolute top-0 shadow-md shadow-zinc-200 flex justify-evenly py-2 font-title2 text-base text-white rounded-b-full md:w-[80%] self-center xl:text-lg 2xl:text-xl z-50">
           <button className="font-title2">Infinix</button>
@@ -30,15 +30,46 @@ const Home = () => {
               en dispositivos Infinix
             </p>
           </picture>
-        <figure className=" absolute z-0 top-2 left-3 lg:bottom-4 lg:h-[15%] lg:w-[6%]">
-          <div className="pattern-gray"></div>
-        </figure>
+          <figure className=" absolute z-0 top-2 left-3 lg:bottom-4 lg:h-[15%] lg:w-[6%]">
+            <div className="pattern-gray"></div>
+          </figure>
           <figure className=" absolute z-0 bottom-2 left-o rounded-tr-2xl lg:bottom-0 lg:h-[20%] lg:w-[30%] bg-zinc-800">
-          <div className=""></div>
-        </figure>
-        <figure className=" absolute z-50 bottom-3 right-3  lg:h-[15%] lg:w-[6%]">
-          <div className="pattern-primary"></div>
-        </figure>
+            <div className="flex justify-center items-center w-full h-full gap-3 2xl:gap-4">
+              <p className="text-white font-title text-lg xl:text-xl 2xl:text-2xl">Visita nuestra Tienda</p>
+              <button className="button">
+                <div className="button__circle">
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon"
+                    width="14"
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    width="14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon button__icon--copy"
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </figure>
+          <figure className=" absolute z-50 bottom-3 right-3  lg:h-[15%] lg:w-[6%]">
+            <div className="pattern-primary"></div>
+          </figure>
         </section>
 
         <div
@@ -46,7 +77,11 @@ const Home = () => {
           className="w-full h-full relative flex items-center justify-center -mt-3  lg:w-1/2"
         >
           <picture className="w-full h-full flex justify-center items-center">
-            <img src={img2} alt="" className="w-full h-full object-cover grayscale-[.5]" />
+            <img
+              src={img2}
+              alt=""
+              className="w-full h-full object-cover grayscale-[.5]"
+            />
           </picture>
         </div>
       </section>
