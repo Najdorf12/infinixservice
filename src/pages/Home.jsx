@@ -25,7 +25,7 @@ const Home = () => {
         <section className="pb-0 md:pb-3  lg:h-full lg:w-1/2 lg:flex  ">
           <picture className="w-full max-w-[500px] mt-20 flex gap-4 flex-col items-center justify-center lg:mt-0 xl:max-w-[750px] 2xl:max-w-[1000px]">
             <img src={logo} alt="" className="w-[95%] lg:w-[80%]" />
-            <p className="lg:w-[80%] text-center text-balance font-title font-semibold leading-4  text-base text-stone-500  z-50 xl:text-xl 2xl:text-2xl">
+            <p className="lg:w-[80%] text-center text-balance font-title font-semibold leading-4  text-base text-stone-500  z-50 xl:text-xl xl:leading-5 2xl:text-2xl 2xl:leading-6">
               Servicio técnico especializado <br />
               en dispositivos Infinix
             </p>
