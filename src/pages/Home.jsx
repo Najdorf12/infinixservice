@@ -30,6 +30,15 @@ const Home = () => {
               en dispositivos Infinix
             </p>
           </picture>
+        <figure className=" absolute z-0 top-2 left-3 lg:bottom-4 lg:h-[15%] lg:w-[6%]">
+          <div className="pattern-gray"></div>
+        </figure>
+          <figure className=" absolute z-0 bottom-2 left-o rounded-tr-2xl lg:bottom-0 lg:h-[20%] lg:w-[30%] bg-zinc-800">
+          <div className=""></div>
+        </figure>
+        <figure className=" absolute z-50 bottom-3 right-3  lg:h-[15%] lg:w-[6%]">
+          <div className="pattern-primary"></div>
+        </figure>
         </section>
 
         <div
