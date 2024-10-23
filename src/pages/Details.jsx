@@ -29,25 +29,25 @@ const Details = () => {
     <>
       <section
         id="third-section"
-        className="w-full relative  bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:flex-row lg:h-auto 2xl:h-screen "
+        className="w-full relative  bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:flex-row  2xl:h-screen "
       >
         <div className="z-10 lg:w-1/2 flex flex-col justify-center items-center gap-3 lg:py-12  ">
           {iconsTech?.map((icon, i) => (
             <div
               key={i}
-              className="flex justify-center items-center z-50 relative w-full max-w-[500px] lg:max-w-[600px] 2xl:max-w-[700px] "
+              className="flex justify-center items-center z-50 relative w-full max-w-[500px] lg:max-w-[600px] xl:max-w-[670px] 2xl:max-w-[700px] "
             >
               <figure
                 id="box-glass"
-                className="w-20 h-full flex justify-center items-center p-3 rounded-2xl rounded-r-none max-w-[200px] shadow-md shadow-zinc-900  bg-gradient-to-tl from-teal-800 via-zinc-800 to-transparent border-zinc-500 border-t-[2px] border-b-[2px] "
+                className="w-20  flex justify-center items-center p-3 rounded-2xl rounded-r-none shadow-md shadow-zinc-900  bg-gradient-to-tl from-teal-800 via-zinc-800 to-transparent border-zinc-500 border-t-[2px] border-b-[2px] lg:w-14 xl:w-16"
               >
                 <img className="w-full" src={icon?.icon} alt="icon" />
               </figure>
               <ul
                 id="box-glass"
-                className="font-title text-base text-balance flex flex-col justify-center shadow-md shadow-zinc-900 pl-3 pr-4 py-3 w-[70%] rounded-2xl rounded-l-none text-white gap-1 xl:text-lg xl:py-3 h-full lg:h-[84px]  border-zinc-500 border-t-[2px] border-b-[2px] "
+                className="font-title h-full text-base text-balance flex flex-col justify-center shadow-md shadow-zinc-900 pl-3 pr-4 py-3  w-[70%] rounded-2xl rounded-l-none text-white gap-1 xl:text-lg   border-zinc-500 border-t-[2px] border-b-[2px] xl:text-nowrap "
               >
-                <li className="flex items-start gap-2 h-max lg:max-w-fit xl:gap-2">
+                <li className="flex items-start gap-2 lg:items-center lg:h-[32px] xl:gap-2 xl:h-[40px] ">
                   <i className="text-primary bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>
                   {icon?.text}
                 </li>
