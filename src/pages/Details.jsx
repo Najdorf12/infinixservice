@@ -1,17 +1,14 @@
 import icon1 from "/icons/phone-audio.png";
 import icon2 from "/icons/phone-batery.png";
-import icon3 from "/icons/phone-batery2.png";
 import icon4 from "/icons/phone-camara.png";
-import icon5 from "/icons/phone-fix.png";
 import icon6 from "/icons/phone-fix2.png";
 import icon7 from "/icons/phone-danger.png";
 import icon8 from "/icons/phone-screen.png";
 import icon9 from "/icons/phone-secure2.png";
 import icon10 from "/icons/phone-water.png";
-import imgbg from "/photos/serviciotecnico2.jpg";
 import imgbg2 from "/bg20.jpg";
-import imgbg3 from "/photos/phone3.jpg";
-import img from "/bg20.jpg";
+/* import img from "/bg26.jpg"; */
+import img from "/bg22.jpg";
 
 const Details = () => {
   const iconsTech = [
@@ -31,20 +28,20 @@ const Details = () => {
         id="third-section"
         className="w-full relative  bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:flex-row  2xl:h-screen border-b-[2px] border-zinc-700"
       >
-        <div className="z-10 lg:w-1/2 flex flex-col justify-center items-center gap-3 lg:py-12 xl:gap-4 2xl:gap-6  ">
+        <div className="z-50 lg:w-1/2 flex flex-col justify-center items-center gap-3 lg:py-12 xl:gap-4 2xl:gap-6 ">
           {iconsTech?.map((icon, i) => (
             <div
               key={i}
               className="flex justify-center items-center z-50 relative w-full max-w-[500px] lg:max-w-[600px] xl:max-w-[670px] 2xl:max-w-[750px] "
             >
               <figure
-                id="box-glass"
+                id="box-glass4"
                 className="w-20  flex justify-center items-center p-3 rounded-2xl rounded-r-none shadow-md shadow-zinc-800  bg-gradient-to-tl from-teal-800 via-zinc-800 to-transparent border-pastel border-t-[2px] border-b-[2px] lg:w-14 xl:w-16 2xl:w-20"
               >
                 <img className="w-full" src={icon?.icon} alt="icon" />
               </figure>
               <ul
-                id="box-glass"
+              /*   id="box-glass4" */
                 className="font-title h-full text-base text-balance flex flex-col justify-center shadow-md shadow-zinc-800 pl-3 pr-4 py-3  w-[70%] rounded-2xl rounded-l-none text-white font-semibold gap-1 xl:text-lg   border-pastel border-t-[2px] border-b-[2px] xl:text-nowrap 2xl:text-xl "
               >
                 <li className="flex items-start gap-2 lg:items-center lg:h-[32px] xl:gap-2 xl:h-[40px] 2xl:h-[56px] ">
@@ -56,14 +53,18 @@ const Details = () => {
           ))}
         </div>
 
-        {/* Imagen que estará a la derecha en pantallas grandes */}
-        <figure className="w-full absolute lg:w-[50%] h-full lg:relative  ">
-          <img
-            className="w-full h-full  object-cover grayscale-[.7] lg:rounded-tl-2xl border-t-[2px] lg:border-l-[2px] border-zinc-700"
-            src={img}
-            alt=""
-          />
-        </figure>
+        <div
+          id="home2"
+          className="w-full h-full  absolute inset-0 z-10 flex items-center justify-center "
+        >
+          <picture className="w-full h-full flex justify-center items-center">
+            <img
+              src={img}
+              alt=""
+              className="w-full h-full grayscale-[.5] absolute object-cover object-[-600px_center] sm:object-center"
+            />
+          </picture>
+        </div>
       </section>
 
       {/*  <div className="h-24 w-full flex justify-end items-center lg:hidden">
