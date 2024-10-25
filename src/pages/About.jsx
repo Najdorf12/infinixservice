@@ -106,15 +106,7 @@ const About = () => {
 export default About;
 {
   /*  
-  [12:01 p.m., 23/10/2024] Victor Farias: SOLUCIONES RAPIDAS Y EFICIENTES
-Resolvemos problemas en el día o en un plazo de 24hs dependiendo la falla del equipo y su complejidad.
-SOPORTE 24/7
-Podes comunicarte con nosotros via whatsapp o mail te responderemos a la brevedad tratando de sacarte cualquier duda que tengas.
-GARANTIAS
-Todas nuestras reparación cuenta con garantía escrita 
-PORQUE ELEGIR INFINIX SERVICE
-Somos un servicio técnico especializado en Infinix, garantizamos reparaciones precisas y duraderas. Contamos con laboratorio propio. Desde simples ajustes hasta las reparaciones más complejas, nos aseguramos de brindarte una experiencia excepcional en todo momento. La combinación de rapidez, calidad y tecnología de vanguardia es lo que nos distingue en el sector, asegurando que cada cliente reciba un servicio hecho a medida.
-Al especializarnos únicamente en Infinix sabemos todo lo que hacemos y conocemos el procedimiento en cada equipo.
+
 REEMPLAZO DE PANTALLA TACTIL:
 Nos dedicamos al cambio de modulo completo del equipo o en su defecto cambio de vidrio si es posible, trabajamos con las mejores pegamentos y maquinas de secado
 SUSTITUCION DE BATERIA:
@@ -132,17 +124,11 @@ Al trabajar con microscopios de alta precisión y micro soldaduras, solucionamos
 
 ACTUALIZACION DE SISTEMA ANDROID
 Realizamos todas las actualizaciones de software oficiales que se encuentren disponibles para tu celular.
-[12:01 p.m., 23/10/2024] Victor Farias: buen dia agus
-[12:01 p.m., 23/10/2024] Victor Farias: claudio me paso eso en los textos
+
 [12:01 p.m., 23/10/2024] Victor Farias: agregar direccion Av Rivadavia 4975 local 53  -  Av Acoyte 87 local 53 - Caballito , poner mapa como para rellenar
-[12:06 p.m., 23/10/2024] Victor Farias: y me pregunta si en la pagina principal se puede poner gif para que vayan rotando las opiniones le cobramos por eso
-[12:06 p.m., 23/10/2024] Victor Farias: o no
-[12:07 p.m., 23/10/2024] Victor Farias: vos me diras
+[12:06 p.m., 23/10/2024] Victor Farias: y me pregunta si en la pagina principal se puede poner gif 
 [12:07 p.m., 23/10/2024] Victor Farias: y me pregunta si al lado del loguito de WhatsApp gris se puede poner algo como en que puedo ayudarte y el logo ponerlo en verde
-  
-  
-  
-  
+
   nuestro equipo está listo para ofrecerte un servicio de calidad y confianza. 
           
       Nuestra misión es mantener tu dispositivo Infinix funcionando como nuevo, utilizando solo piezas originales y garantizando cada reparación. 

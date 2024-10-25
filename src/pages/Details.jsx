@@ -9,9 +9,9 @@ import icon8 from "/icons/phone-screen.png";
 import icon9 from "/icons/phone-secure2.png";
 import icon10 from "/icons/phone-water.png";
 import imgbg from "/photos/serviciotecnico2.jpg";
-import imgbg2 from "/photos/phonecamara.jpg";
+import imgbg2 from "/bg20.jpg";
 import imgbg3 from "/photos/phone3.jpg";
-import img from "/photos/serviciotecnico2.jpg";
+import img from "/bg20.jpg";
 
 const Details = () => {
   const iconsTech = [
