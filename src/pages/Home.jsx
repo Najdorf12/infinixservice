@@ -4,23 +4,23 @@ import img2 from "/bg25.jpg";
 const Home = () => {
   return (
     <>
-     <section
-  id="home"
-  className="z-50 w-full h-screen relative flex flex-col items-center "
->
-  <nav className="bg-gradient-to-tr mx-auto self-center from-primary via-zinc-800 to-zinc-800 w-full absolute top-0 shadow-md shadow-zinc-700 flex justify-evenly py-2 font-title2 text-base text-white rounded-b-full md:w-[80%] xl:text-lg 2xl:text-xl z-50 2xl:py-3">
-    <button className="font-title2">Infinix</button>
-    <a href="#third-section">
-      <button className="flex items-center justify-center rounded-full">
-        Servicio
-      </button>
-    </a>
-    <a href="#contact-section">
-      <button className="flex items-center justify-center rounded-full">
-        Contacto
-      </button>
-    </a>
-  </nav>
+      <section
+        id="home"
+        className="z-50 w-full h-screen relative flex flex-col items-center "
+      >
+        <nav className="bg-gradient-to-tr mx-auto self-center from-primary via-zinc-800 to-zinc-800 w-full absolute top-0 shadow-md shadow-white flex justify-evenly py-2 font-title2 text-base text-white rounded-b-full md:w-[80%] xl:text-lg 2xl:text-xl z-50 2xl:py-3">
+          <button className="font-title2">Infinix</button>
+          <a href="#third-section">
+            <button className="flex items-center justify-center rounded-full">
+              Servicio
+            </button>
+          </a>
+          <a href="#contact-section">
+            <button className="flex items-center justify-center rounded-full">
+              Contacto
+            </button>
+          </a>
+        </nav>
 
         <section className="pb-0 md:pb-3  lg:h-full  lg:flex z-50 lg:self-start lg:w-[60%] xl:w-1/2">
           <picture className="w-full max-w-[500px]  mt-20 flex gap-4 flex-col items-center justify-center lg:mt-0 xl:max-w-[750px] 2xl:max-w-[1000px]">
@@ -39,7 +39,7 @@ const Home = () => {
                 Visita nuestra Tienda
               </p>
               <button className="button">
-                <a href="https://www.grupolacomunidad.com.ar/"  target="_blank">
+                <a href="https://www.grupolacomunidad.com.ar/" target="_blank">
                   <div className="button__circle">
                     <svg
                       viewBox="0 0 14 15"
