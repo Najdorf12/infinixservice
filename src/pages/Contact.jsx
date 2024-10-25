@@ -1,4 +1,4 @@
-import img2 from "/photos/serviciotecnico2.jpg";
+import img2 from "/bg26.jpg";
 
 const Contact = () => {
   return (
@@ -103,7 +103,7 @@ const Contact = () => {
         {/* Contenedor de la imagen */}
         <div className="w-full absolute h-full hidden lg:flex lg:w-1/2 lg:relative ">
           <img
-            className="w-full h-full object-cover grayscale-[1]"
+            className="w-full h-full object-cover"
             src={img2}
             alt=""
           />
