@@ -33,7 +33,7 @@ const Home = () => {
           <figure className=" absolute z-0 top-2 left-3 lg:bottom-4 lg:h-[15%] lg:w-[6%]">
             <div className="pattern-gray"></div>
           </figure>
-          <figure className=" absolute bottom-0 left-o rounded-tr-2xl lg:bottom-0 pt-3 pl-3 pr-3 pb-1 lg:pb-3 lg:w-[30%] bg-zinc-800 z-50">
+          <figure className=" absolute bottom-0 left-o rounded-tr-2xl lg:bottom-0 pt-3 pl-3 pr-3 pb-1 lg:pb-3 lg:w-[30%] 2xl:[25%] bg-zinc-800 z-50">
             <div className="flex justify-center items-center w-full h-full gap-3 2xl:gap-4 ">
               <p className="text-white font-title text-lg xl:text-xl 2xl:text-2xl">
                 Visita nuestra Tienda
