@@ -88,14 +88,14 @@ const Details = () => {
 
         <article
           id="box-glass4"
-          className="flex flex-col items-start py-6 px-3 mt-14 z-50 w-full  border-white border-t-[2px] border-b-[2px]   rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6 xl:py-8 2xl:py-10 xl:mt-8 2xl:mt-12 "
+          className="flex flex-col items-start py-6 px-3 mt-14 z-50 w-full  border-zinc-400 border-t-[2px] border-b-[2px]   rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6 xl:py-8 2xl:py-10 xl:mt-8 2xl:mt-12 "
         >
           <h6 className="text-4xl  text-balance  text-primary font-title2 font-bold md:text-5xl  xl:text-6xl 2xl:text-7xl">
             Cuidamos lo que te conecta
           </h6>
-          <div className="w-full h-[2px] bg-primary mt-3 md:mt-4 2xl:mt-6"></div>
+          <div className="w-full h-[2px] bg-zinc-400 mt-3 md:mt-4 2xl:mt-6"></div>
           <p
-            className="text-sm mt-4 text-stone-500
+            className="text-sm mt-4 text-stone-300
            font-title2 font-medium md:text-base md:mt-5  xl:text-lg xl:mt-6 2xl:text-xl"
           >
             En <strong>Infinix Service</strong>, entendemos que los dispositivos
