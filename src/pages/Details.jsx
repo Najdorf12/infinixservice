@@ -59,7 +59,7 @@ const Details = () => {
         {/* Imagen que estará a la derecha en pantallas grandes */}
         <figure className="w-full absolute lg:w-[50%] h-full lg:relative  ">
           <img
-            className="w-full h-full object-cover grayscale-[.7] lg:rounded-tl-2xl border-t-[2px] lg:border-l-[2px] border-zinc-700"
+            className="w-full h-full  object-cover grayscale-[.7] lg:rounded-tl-2xl border-t-[2px] lg:border-l-[2px] border-zinc-700"
             src={img}
             alt=""
           />
@@ -81,7 +81,7 @@ const Details = () => {
           <div className="pattern-primary"></div>
         </figure>
         <img
-          className="w-full  absolute inset-0 h-full object-cover  z-20 grayscale-[.7] shadow-sm"
+          className="w-full  absolute inset-0 h-full object-cover object-[-650px_center] md:object-center z-20 grayscale-[.7] shadow-sm"
           src={imgbg2}
           alt=""
         />
