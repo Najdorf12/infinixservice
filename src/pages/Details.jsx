@@ -26,7 +26,7 @@ const Details = () => {
     <>
       <section
         id="third-section"
-        className="w-full relative  bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:flex-row  2xl:h-screen border-b-[2px] border-zinc-700"
+        className="w-full relative  bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:items-start 2xl:h-screen border-b-[2px] border-zinc-700"
       >
         <div className="z-50 lg:w-1/2 flex flex-col justify-center items-center gap-3 lg:py-12 xl:gap-4 2xl:gap-6 ">
           {iconsTech?.map((icon, i) => (
