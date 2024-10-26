@@ -94,31 +94,3 @@ const Home = () => {
 };
 
 export default Home;
-{
-  /*  <div id="home2" className="w-full h-[60%] self-start flex justify-between items-end text-balance absolute bottom-0 md:bottom-2 lg:max-w-[550px] xl:max-w-[680px] 2xl:max-w-[950px]"> */
-}
-{
-  /* <picture  className=" h-[100%] w-full   bg-red-500 z-20">
-            <img className="w-full object-cover" src={img} alt="" />
-          </picture> */
-}
-{
-  /*  <div className="border-l-0 shadow-md shadow-zinc-800 text-center text-balance h-[300px] w-[45%] max-w-[350px] bg-gradient-to-tr from-zinc-800 via-zinc-800 to-trasparent p-3 rounded-l-2xl lg:h-[200px]  xl:h-[250px] xl:p-4 xl:pl-6 2xl:h-[300px] 2xl:pt-8">
-            <p className="lg:w-[80%] text-white font-bold font-title2 text-2xl  lg:text-xl xl:text-2xl  2xl:text-3xl ">
-              Lorem Impsum dolor sit amet
-            </p>
-            <p className="text-zinc-500 font-bold font-title2 text-base mt-3 ">
-              Lorem impsum dolor sit amet
-            </p>
-            <div className="w-[80%] h-[2.5px] self-center bg-[rgb(146,195,73)] mt-6 relative flex items-center justify-center lg:mt-9 lg:w-[80%] xl:mt-12 2xl:mt-20"> */
-}
-{
-  /*  <i className="bx bx-right-arrow-alt absolute -right-2 text-2xl mt-[.98px] text-[rgb(146,195,73)] xl:text-4xl xl:mt-0"></i> */
-}
-{
-  /* </div>
-          </div> */
-}
-{
-  /*   </div> */
-}

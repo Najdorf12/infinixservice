@@ -9,49 +9,145 @@ import icon10 from "/icons/phone-water.png";
 import imgbg2 from "/bg20.jpg";
 /* import img from "/bg26.jpg"; */
 import img from "/bg22.jpg";
+import { useState } from "react";
 
 const Details = () => {
+ 
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentSubtitle, setCurrentSubtitle] = useState("");
+  const [currentTitle, setCurrentTitle] = useState("");
+ 
+  const openModal = (title, subtitle) => {
+    setCurrentTitle(title)
+    setCurrentSubtitle(subtitle);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setCurrentTitle("");
+    setCurrentSubtitle("");
+  };
   const iconsTech = [
-    { icon: icon8, text: "Reemplazo de pantalla táctil" },
-    { icon: icon2, text: "Sustitución de batería" },
-    { icon: icon4, text: "Reparación de cámaras (principal y frontal)" },
-    { icon: icon7, text: "Solución de problemas de sistema operativo" },
-    { icon: icon1, text: "Reparación de audio y altavoces" },
-    { icon: icon10, text: "Reparación de dispositivos mojados" },
-    { icon: icon6, text: "Solución de cortocircuitos en placa" },
-    { icon: icon9, text: "Actualización de sistema Android" },
+    {
+      icon: icon8,
+      title: "Reemplazo de pantalla táctil",
+      subtitle:
+        "Cambio de modulo completo del equipo o en su defecto cambio de vidrio si es posible, trabajamos con las mejores pegamentos y maquinas de secado",
+    },
+    {
+      icon: icon2,
+      title: "Sustitución de batería",
+      subtitle:
+        "cambio de baterías con su debida prueba de funcionamiento y rendimiento en el equipo",
+    },
+    {
+      icon: icon4,
+      title: "Reparación de cámaras",
+      subtitle:
+        "Colocamos cámaras originales que son compatibles con tu modelo Infinix, tanto la principal como la selfie, también cambiamos vidrios de cámaras externos",
+    },
+    {
+      icon: icon7,
+      title: "Solución de problemas de sistema operativo",
+      subtitle:
+        "Realizamos reinstalación de software, actualizaciones, trabajos de fallas en errores de software",
+    },
+    {
+      icon: icon1,
+      title: "Reparación de audio y altavoces",
+      subtitle:
+        "Ante inconveniente de sonido contamos con cambio auriculares y buzzer altavoz",
+    },
+    {
+      icon: icon10,
+      title: "Reparación de dispositivos mojados",
+      subtitle:
+        "Trabajamos con equipos mojados, realizamos baños químicos y tenemos todas las herramientas necesarias para poder revivir cualquier dispositivo que haya tenido contacto con el agua, no damos ningún celular por perdido.",
+    },
+    {
+      icon: icon6,
+      title: "Solución de cortocircuitos en placa",
+      subtitle:
+        "Al trabajar con microscopios de alta precisión y micro soldaduras, solucionamos la mayoría de los cortos en placa que se pueden producir en tu celular, se por uso, golpes o fallas de fabricas del equipo",
+    },
+    {
+      icon: icon9,
+      title: "Actualización de sistema Android",
+      subtitle:
+        "Realizamos todas las actualizaciones de software oficiales que se encuentren disponibles para  tu  celular.",
+    },
   ];
 
   return (
     <>
-      <section
+     <section
         id="third-section"
-        className="w-full relative  bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:items-start 2xl:h-screen border-b-[2px] border-zinc-700"
+        className="w-full relative bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:items-start 2xl:h-screen border-b-[2px] border-zinc-700"
       >
         <div className="z-50 lg:w-1/2 flex flex-col justify-center items-center gap-3 lg:py-12 xl:gap-4 2xl:gap-6 ">
-          {iconsTech?.map((icon, i) => (
+          {iconsTech.map((icon, i) => (
             <div
               key={i}
-              className="flex justify-center items-center z-50 relative w-full max-w-[500px] lg:max-w-[600px] xl:max-w-[670px] 2xl:max-w-[750px] "
+              className="flex justify-center items-center z-50 relative w-full max-w-[500px] lg:max-w-[600px] xl:max-w-[670px] 2xl:max-w-[750px]"
             >
               <figure
                 id="box-glass4"
-                className="w-20  flex justify-center items-center p-3 rounded-2xl rounded-r-none shadow-md shadow-zinc-800  bg-gradient-to-tl from-teal-800 via-zinc-800 to-transparent border-pastel border-t-[2px] border-b-[2px] lg:w-14 xl:w-16 2xl:w-20"
+                className="w-20 flex justify-center items-center p-3 rounded-2xl rounded-r-none shadow-md shadow-zinc-800 bg-gradient-to-tl from-teal-800 via-zinc-800 to-transparent border-pastel border-t-[2px] border-b-[2px] lg:w-14 xl:w-16 2xl:w-20"
               >
-                <img className="w-full" src={icon?.icon} alt="icon" />
+                <img className="w-full" src={icon.icon} alt="icon" />
               </figure>
               <ul
-              /*   id="box-glass4" */
-                className="font-title h-full text-base text-balance flex flex-col justify-center shadow-md shadow-zinc-800 pl-3 pr-4 py-3  w-[70%] rounded-2xl rounded-l-none text-white font-semibold gap-1 xl:text-lg   border-pastel border-t-[2px] border-b-[2px] xl:text-nowrap 2xl:text-xl "
+              id="box-glass4"
+                className="font-title h-full text-base text-balance flex flex-col justify-start shadow-md shadow-zinc-800 pl-3 pr-4 py-1 w-[70%] rounded-2xl rounded-l-none text-white font-semibold gap-1 xl:text-lg border-pastel border-t-[2px] border-b-[2px] xl:text-nowrap 2xl:text-xl  relative"
               >
-                <li className="flex items-start gap-2 lg:items-center lg:h-[32px] xl:gap-2 xl:h-[40px] 2xl:h-[56px] ">
+                <li className="relative flex items-start gap-2 lg:items-center lg:h-[32px] xl:gap-2 xl:h-[40px] 2xl:h-[56px] ">
                   <i className="text-primary bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>
-                  {icon?.text}
+                  {icon.title}
+                
                 </li>
+                <button
+                    onClick={() => openModal(icon.title,icon.subtitle)}
+                    className="ml-2 text-stone-400 blue-200  text-sm font-title absolute bottom-0 right-0 hover:underline flex items-center justify-between gap-3 bg-zinc-800 rounded-xl pl-3 border border-zinc-400 xl:text-base xl:pl-5 xl:gap-4"
+                  >
+                    Ver más
+                    <i className='bx bx-right-arrow-alt text-primary text-xl rotate-[-45deg] rounded-full bg-white w-6 h-6 flex items-center justify-center xl:text-2xl xl:w-7 xl:h-7'></i>
+                  </button>
               </ul>
             </div>
           ))}
         </div>
+
+        {/* Modal */}
+        {isModalOpen && (
+          <div className="fixed inset-0 flex items-center justify-center z-[100] bg-black bg-opacity-50">
+            <div className="relative bg-zinc-700 border border-pastel shadow-lg shadow-zinc-900 pt-4 pb-5 px-4 rounded-lg w-11/12 max-w-md xl:max-w-[500px] xl:py-7 xl:px-6 ">
+              <button
+                onClick={closeModal}
+                className="text-white red-500 float-right font-bold absolute right-3 top-2"
+              >
+                X
+              </button>
+              <h2 className="text-xl text-balance font-semibold mb-2 font-title2 text-primary xl:text-3xl">{currentTitle}</h2>
+              <div className="w-full h-[2px] bg-zinc-400 mt-2 xl:mt-3 2xl:mt-4"></div>
+              <p className="text-sm text-zinc-400 text-balance xl:text-base mt-3 xl:mt-4 font-text3">{currentSubtitle}</p>
+            </div>
+          </div>
+        )}
+
+        <div
+          id="home2"
+          className="w-full h-full absolute inset-0 z-10 flex items-center justify-center"
+        >
+          <picture className="w-full h-full flex justify-center items-center">
+            <img
+              src={img}
+              alt=""
+              className="w-full h-full grayscale-[.5] absolute object-cover object-[-600px_center] sm:object-center"
+            />
+          </picture>
+        </div>
+      
 
         <div
           id="home2"
