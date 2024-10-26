@@ -93,13 +93,13 @@ const Details = () => {
             >
               <figure
                 id="box-glass4"
-                className="w-20 flex justify-center items-center p-3 rounded-2xl rounded-r-none shadow-md shadow-zinc-800 bg-gradient-to-tl from-teal-800 via-zinc-800 to-transparent border-pastel border-t-[2px] border-b-[2px] lg:w-14 xl:w-16 2xl:w-20"
+                className="w-20 flex justify-center items-center p-3 rounded-2xl rounded-r-none shadow-md shadow-zinc-900 bg-gradient-to-tl from-teal-800 via-zinc-800 to-transparent border-zinc-400 border-t-[2px] border-b-[2px] lg:w-14 xl:w-16 2xl:w-20"
               >
                 <img className="w-full" src={icon.icon} alt="icon" />
               </figure>
               <ul
-              id="box-glass4"
-                className="font-title h-full text-base text-balance flex flex-col justify-start shadow-md shadow-zinc-800 pl-3 pr-4 py-1 w-[70%] rounded-2xl rounded-l-none text-white font-semibold gap-1 xl:text-lg border-pastel border-t-[2px] border-b-[2px] xl:text-nowrap 2xl:text-xl  relative"
+              id="box-glass3"
+                className="font-title h-full text-base text-balance flex flex-col justify-start shadow-md shadow-zinc-900 pl-3 pr-4 py-1 w-[70%] rounded-2xl rounded-l-none text-zinc-100 font-semibold gap-1 xl:text-lg border-zinc-400 border-t-[2px] border-b-[2px] xl:text-nowrap 2xl:text-xl  relative"
               >
                 <li className="relative flex items-start gap-2 lg:items-center lg:h-[32px] xl:gap-2 xl:h-[40px] 2xl:h-[56px] ">
                   <i className="text-primary bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>
@@ -108,10 +108,10 @@ const Details = () => {
                 </li>
                 <button
                     onClick={() => openModal(icon.title,icon.subtitle)}
-                    className="ml-2 text-stone-400 blue-200  text-sm font-title absolute bottom-0 right-0 hover:underline flex items-center justify-between gap-3 bg-zinc-800 rounded-xl pl-3 border border-zinc-400 xl:text-base xl:pl-5 xl:gap-4"
+                    className="ml-2 text-zinc-300 blue-200  text-sm font-title absolute bottom-[2px] right-[2px] hover:underline flex items-center justify-between gap-3 bg-zinc-800 rounded-3xl pl-3 pr-[1px] py-[1px] border-[2px] border-zinc-600 xl:text-base xl:pl-5 xl:gap-4"
                   >
                     Ver más
-                    <i className='bx bx-right-arrow-alt text-primary text-xl rotate-[-45deg] rounded-full bg-white w-6 h-6 flex items-center justify-center xl:text-2xl xl:w-7 xl:h-7'></i>
+                    <i className='bx bx-right-arrow-alt text-primary text-xl rotate-[-45deg] rounded-full bg-zinc-600 w-6 h-6 flex items-center justify-center xl:text-2xl xl:w-7 xl:h-7'></i>
                   </button>
               </ul>
             </div>
@@ -121,16 +121,16 @@ const Details = () => {
         {/* Modal */}
         {isModalOpen && (
           <div className="fixed inset-0 flex items-center justify-center z-[100] bg-black bg-opacity-50">
-            <div className="relative bg-zinc-700 border border-pastel shadow-lg shadow-zinc-900 pt-4 pb-5 px-4 rounded-lg w-11/12 max-w-md xl:max-w-[500px] xl:py-7 xl:px-6 ">
+            <div className="relative bg-zinc-800 border border-pastel shadow-lg shadow-zinc-900 pt-6 pb-7 px-4 rounded-lg w-11/12 max-w-md xl:max-w-[500px] xl:py-7 xl:px-6 ">
               <button
                 onClick={closeModal}
-                className="text-white red-500 float-right font-bold absolute right-3 top-2"
+                className="text-primary h-6 w-6 flex justify-center items-center red-500 float-right font-bold absolute right-3 top-2 bg-zinc-700 p-2 rounded-full border border-zinc-500 shadow-md shadow-zinc-900"
               >
                 X
               </button>
-              <h2 className="text-xl text-balance font-semibold mb-2 font-title2 text-primary xl:text-3xl">{currentTitle}</h2>
-              <div className="w-full h-[2px] bg-zinc-400 mt-2 xl:mt-3 2xl:mt-4"></div>
-              <p className="text-sm text-zinc-400 text-balance xl:text-base mt-3 xl:mt-4 font-text3">{currentSubtitle}</p>
+              <h2 className="text-2xl text-balance font-semibold mb-2  font-title2 text-primary xl:text-3xl">{currentTitle}</h2>
+              <div className="w-full h-[2px] bg-zinc-500 mt-2 xl:mt-3 2xl:mt-4"></div>
+              <p className=" text-zinc-400 text-balance text-base mt-3 xl:mt-4 font-text3">{currentSubtitle}</p>
             </div>
           </div>
         )}
