@@ -171,10 +171,10 @@ const Details = () => {
         id="brand-section"
         className="w-full h-screen relative flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20 border-b-[2px] border-zinc-700"
       >
-        <figure className="w-[60%] h-20 absolute z-50 bottom-2 left-3 xl:bottom-4 xl:w-[50%]">
+        <figure className="w-[60%] h-20 absolute z-50 bottom-3 left-3 xl:bottom-6 xl:w-[50%]">
           <div className="pattern-primary"></div>
         </figure>
-        <figure className="hidden lg:w-[10%] lg:h-20 lg:absolute z-50  lg:flex lg:top-4 lg:right-4 xl:bottom-4 xl:w-[20%]">
+        <figure className="hidden lg:w-[10%] lg:h-20 lg:absolute z-50  lg:flex lg:top-6 lg:right-4 xl:bottom-4 xl:w-[20%]">
           <div className="pattern-primary"></div>
         </figure>
         <img
