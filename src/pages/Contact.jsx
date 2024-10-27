@@ -20,7 +20,7 @@ const Contact = () => {
             >
               CONTACTO
             </h2>
-            <div className="flex items-start justify-center gap-1 font-title  text-white mt-4 text-sm lg:items-center  xl:gap-2 lg:text-lg ">
+            <div className="flex items-start justify-center gap-1 font-title  text-white mt-4 text-sm lg:items-center  xl:gap-2 lg:text-lg xl:font-semibold ">
               <i className="bx bxs-map text-xl text-primary -ml-[1px]  -mt-[5px]   2xl:text-xl"></i>
               Galería París - Av Rivadavia 4975 local 53 - Caballito
             </div>
