@@ -7,6 +7,7 @@ import icon8 from "/icons/phone-screen.png";
 import icon9 from "/icons/phone-secure2.png";
 import icon10 from "/icons/phone-water.png";
 import imgbg2 from "/bg20.jpg";
+import imgbg from "/bg2.webp";
 /* import img from "/bg26.jpg"; */
 import img from "/bg22.jpg";
 import { useState } from "react";
@@ -208,6 +209,11 @@ const Details = () => {
             tranquilidad de que tu dispositivo está en buenas manos.
           </p>
         </article>
+      </section>
+      <section classsName="w-full h-[50vh] md:h-[70vh] ">
+        <figure className="w-full h-full md:h-[70vh]">
+          <img src={imgbg} alt=""  className="object-cover w-full h-full"/>
+        </figure>
       </section>
     </>
   );
