@@ -39,7 +39,7 @@ const Details = () => {
       icon: icon2,
       title: "Sustitución de batería",
       subtitle:
-        "cambio de baterías con su debida prueba de funcionamiento y rendimiento en el equipo",
+        "Cambio de baterías con su debida prueba de funcionamiento y rendimiento en el equipo",
     },
     {
       icon: icon4,
