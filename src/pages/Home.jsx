@@ -10,11 +10,11 @@ const Home = () => {
       >
         <nav className="bg-gradient-to-tr mx-auto self-center from-primary via-zinc-800 to-zinc-800 w-full absolute top-0 shadow-md shadow-white flex justify-evenly py-2 font-title2 text-base text-white rounded-b-full md:w-[80%] xl:text-lg 2xl:text-xl z-50 2xl:py-3">
           <button className="font-title2">Infinix</button>
-          <a href="#third-section">
             <button className="flex items-center justify-center rounded-full cursor-poisnter hover:scale-105 hover:text-primary duration-400">
+          <a href="#third-section">
               Servicio
-            </button>
           </a>
+            </button>
           <a href="#contact-section">
             <button className="flex items-center justify-center rounded-full hover:scale-105 hover:text-primary duration-400 ">
               Contacto
