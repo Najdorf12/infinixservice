@@ -1,5 +1,5 @@
 import iconTech from "/iconTech.png";
-import iconTech2 from "/iconTech2.png";
+import iconTech2 from "/garantia.png";
 import iconTech3 from "/iconTech3.png";
 
 const About = () => {
@@ -67,9 +67,9 @@ const About = () => {
                   Todas nuestras reparación cuenta con garantía escrita
                 </p>
               </article>
-              <figure className="w-full mt-4 flex justify-end md:mt-0 lg:mt-3 xl:-mt-8">
+              <figure className="w-full mt-3 flex justify-end md:mt-0 lg:mt-3 xl:-mt-8">
                 <img
-                  className="w-[95px] mr-2 md:mr-8 xl:w-[145px] xl:mr-4 "
+                  className="w-[95px] mr-1 md:mr-8 xl:w-[145px] xl:mr-4 "
                   src={iconTech2}
                   alt=""
                 />

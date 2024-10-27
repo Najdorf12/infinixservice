@@ -6,12 +6,12 @@ const Home = () => {
     <>
       <section
         id="home"
-        className="z-50 w-full h-screen relative flex flex-col items-center "
+        className="z-50 w-full h-[96vh] relative flex flex-col items-center md:h-screen"
       >
         <nav className="bg-gradient-to-tr mx-auto self-center from-primary via-zinc-800 to-zinc-800 w-full absolute top-0 shadow-md shadow-white flex justify-evenly py-2 font-title2 text-base text-white rounded-b-full md:w-[80%] xl:text-lg 2xl:text-xl z-50 2xl:py-3">
           <button className="font-title2">Infinix</button>
           <a href="#third-section">
-            <button className="flex items-center justify-center rounded-full cursor-pointer hover:scale-105 hover:text-primary duration-400">
+            <button className="flex items-center justify-center rounded-full cursor-poisnter hover:scale-105 hover:text-primary duration-400">
               Servicio
             </button>
           </a>
@@ -25,7 +25,7 @@ const Home = () => {
         <section className="pb-0 md:pb-3  lg:h-full  lg:flex z-50 lg:self-start lg:w-[60%] xl:w-1/2">
           <picture className="w-full max-w-[500px]  mt-20 flex gap-4 flex-col items-center justify-center lg:mt-0 xl:max-w-[750px] 2xl:max-w-[1000px]">
             <img src={logo} alt="" className="w-[95%] lg:w-[80%] z-50 " />
-            <p className="lg:w-[80%] text-center text-balance font-title font-semibold leading-4  text-base text-stone-500  z-50 xl:text-xl xl:leading-5 2xl:text-2xl 2xl:leading-6">
+            <p className="lg:w-[80%] text-center text-balance font-title font-semibold leading-4  text-base text-stone-700  z-50 xl:text-xl xl:leading-5 2xl:text-2xl 2xl:leading-6">
               Servicio técnico especializado <br />
               en dispositivos Infinix
             </p>
@@ -33,7 +33,7 @@ const Home = () => {
           <figure className=" absolute z-0 top-2 left-3 lg:bottom-4 lg:h-[15%] lg:w-[6%]">
             <div className="pattern-gray"></div>
           </figure>
-          <figure className=" absolute bottom-0 left-o rounded-tr-2xl lg:bottom-0 pt-3 pl-3 pr-3 pb-1 lg:pb-3 lg:w-[30%] 2xl:[25%] bg-zinc-800 z-50">
+          <figure className=" absolute -bottom-[2px] left-o rounded-tr-2xl lg:bottom-0 pt-2 pl-3 pr-2 pb-1 lg:pb-3 lg:w-[30%] 2xl:[25%] bg-zinc-800 z-50">
             <div className="flex justify-center items-center w-full h-full gap-3 2xl:gap-4 ">
               <p className="text-white font-title text-lg xl:text-xl 2xl:text-2xl">
                 Visita nuestra Tienda
