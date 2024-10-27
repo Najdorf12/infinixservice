@@ -89,7 +89,7 @@ const Details = () => {
           {iconsTech.map((icon, i) => (
             <div
               key={i}
-              className="flex justify-center items-center z-50 relative w-full max-w-[500px] lg:max-w-[600px] xl:max-w-[670px] 2xl:max-w-[750px]"
+              className="flex justify-center items-center z-50 relative w-full max-w-[500px] lg:max-w-[600px] xl:max-w-[560px] 2xl:max-w-[630px]"
             >
               <figure
                 id="box-glass4"
