@@ -1,5 +1,5 @@
 import iconTech from "/iconTech.png";
-import iconTech2 from "/garantia.png";
+import iconTech2 from "/iconTech2.png";
 import iconTech3 from "/iconTech3.png";
 
 const About = () => {

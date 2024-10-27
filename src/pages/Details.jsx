@@ -13,13 +13,12 @@ import img from "/bg22.jpg";
 import { useState } from "react";
 
 const Details = () => {
- 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentSubtitle, setCurrentSubtitle] = useState("");
   const [currentTitle, setCurrentTitle] = useState("");
- 
+
   const openModal = (title, subtitle) => {
-    setCurrentTitle(title)
+    setCurrentTitle(title);
     setCurrentSubtitle(subtitle);
     setIsModalOpen(true);
   };
@@ -82,7 +81,13 @@ const Details = () => {
 
   return (
     <>
-     <section
+     {/* <div className="w-full flex justify-end bg-white">
+         <div
+            style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 69% 100%)" }}
+            className="w-1/2 h-14 bg-primary"
+          ></div>
+        </div> */}
+      <section
         id="third-section"
         className="w-full relative bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:items-start 2xl:h-screen border-b-[2px] border-zinc-700"
       >
@@ -99,21 +104,20 @@ const Details = () => {
                 <img className="w-full" src={icon.icon} alt="icon" />
               </figure>
               <ul
-              id="box-glass3"
+                id="box-glass3"
                 className="font-title h-full text-base text-balance flex flex-col justify-start shadow-md shadow-zinc-900 pl-3 pr-4 py-1 w-[70%] rounded-2xl rounded-l-none text-zinc-300 font-semibold gap-1 xl:text-lg border-zinc-400 border-t-[2px] border-b-[2px]  2xl:text-xl  relative xl:pr-28"
               >
                 <li className="relative flex items-start gap-2  lg:h-[32px] xl:gap-2 xl:h-[40px] 2xl:h-[56px] ">
                   <i className="text-primary bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>
                   {icon.title}
-                
                 </li>
                 <button
-                    onClick={() => openModal(icon.title,icon.subtitle)}
-                    className="ml-2 text-zinc-300 blue-200  text-sm font-title absolute bottom-[2px] right-[2px]  flex items-center justify-between gap-3 bg-zinc-800 rounded-3xl pl-3 pr-[1px] py-[1px] border-[2px] border-zinc-600 xl:text-base xl:pl-5 xl:gap-4 2xl:text-xl"
-                  >
-                    Ver más
-                    <i className='bx bx-right-arrow-alt text-primary text-xl rotate-[-45deg] rounded-full bg-zinc-600 w-6 h-6 flex items-center justify-center xl:text-2xl 2xl:w-7 2xl:h-7 '></i>
-                  </button>
+                  onClick={() => openModal(icon.title, icon.subtitle)}
+                  className="ml-2 text-zinc-300 blue-200  text-sm font-title absolute bottom-[2px] right-[2px]  flex items-center justify-between gap-3 bg-zinc-800 rounded-3xl pl-3 pr-[1px] py-[1px] border-[2px] border-zinc-600 xl:text-base xl:pl-5 xl:gap-4 2xl:text-xl"
+                >
+                  Ver más
+                  <i className="bx bx-right-arrow-alt text-primary text-xl rotate-[-45deg] rounded-full bg-zinc-600 w-6 h-6 flex items-center justify-center xl:text-2xl 2xl:w-7 2xl:h-7 "></i>
+                </button>
               </ul>
             </div>
           ))}
@@ -129,14 +133,17 @@ const Details = () => {
               >
                 X
               </button>
-              <h2 className="text-2xl text-balance font-semibold mb-2  font-title2 text-primary xl:text-4xl ">{currentTitle}</h2>
+              <h2 className="text-2xl text-balance font-semibold mb-2  font-title2 text-primary xl:text-4xl ">
+                {currentTitle}
+              </h2>
               <div className="w-full h-[2px] bg-zinc-500 mt-2 xl:mt-3 2xl:mt-4"></div>
-              <p className=" text-zinc-400 text-balance text-base mt-3 xl:mt-4 font-text3 xl:text-lg">{currentSubtitle}</p>
-              <button className="ml-2 text-primary blue-200 text-sm font-title absolute bottom-2 right-2  flex items-center justify-between gap-3 bg-zinc-800 rounded-3xl pl-3 pr-[1px] py-[1px] border-[2px] border-zinc-600 xl:pl-5 xl:gap-4 xl:text-xl"
-                  >
-                    Escríbenos
-                    <i className='bx bx-right-arrow-alt text-primary text-xl rotate-[-45deg] rounded-full bg-zinc-600 w-6 h-6 flex items-center justify-center xl:text-2xl xl:w-7 xl:h-7 '></i>
-                  </button>
+              <p className=" text-zinc-400 text-balance text-base mt-3 xl:mt-4 font-text3 xl:text-lg">
+                {currentSubtitle}
+              </p>
+              <button className="ml-2 text-primary blue-200 text-sm font-title absolute bottom-2 right-2  flex items-center justify-between gap-3 bg-zinc-800 rounded-3xl pl-3 pr-[1px] py-[1px] border-[2px] border-zinc-600 xl:pl-5 xl:gap-4 xl:text-xl">
+                Escríbenos
+                <i className="bx bx-right-arrow-alt text-primary text-xl rotate-[-45deg] rounded-full bg-zinc-600 w-6 h-6 flex items-center justify-center xl:text-2xl xl:w-7 xl:h-7 "></i>
+              </button>
             </div>
           </div>
         )}
@@ -153,7 +160,6 @@ const Details = () => {
             />
           </picture>
         </div>
-      
 
         <div
           id="home2"
@@ -163,7 +169,7 @@ const Details = () => {
             <img
               src={img}
               alt=""
-              className="w-full h-full grayscale-[.5] absolute object-cover object-[-600px_center] sm:object-center"
+              className="w-full h-full grayscale-[.3] absolute object-cover object-[-600px_center] sm:object-center"
             />
           </picture>
         </div>
@@ -172,10 +178,27 @@ const Details = () => {
       {/*  <div className="h-24 w-full flex justify-end items-center lg:hidden">
         <div className="h-24 w-1/2 bg-teal-800 "> </div>
       </div> */}
-
+      <section classsName="w-full flex flex-col">
+          <div className="w-full flex justify-end bg-zinc-800">
+         <div
+            style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 100% 66%, 52% 20%)" }}
+            className="w-1/2 h-14 bg-primary"
+          ></div>
+        </div>
+        <figure className="w-full  h-[40vh] md:h-[70vh]">
+          <img src={imgbg} alt="" className="object-cover w-full h-full" />
+        </figure>
+        <div className="w-full flex  bg-zinc-800">
+         
+          <div
+            style={{ clipPath: "polygon(0 0, 21% 67%, 100% 100%, 0 98%, 0 59%)" }}
+            className="w-1/2 h-14 bg-primary xl:h-16"
+          ></div>
+        </div>
+      </section>
       <section
         id="brand-section"
-        className="w-full h-screen relative flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20 border-b-[2px] border-zinc-700"
+        className="w-full h-screen relative flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20  "
       >
         <figure className="w-[60%] h-20 absolute z-50 bottom-3 left-3 xl:bottom-6 xl:w-[50%] xl:left-6">
           <div className="pattern-primary"></div>
@@ -191,7 +214,7 @@ const Details = () => {
 
         <article
           id="box-glass4"
-          className="flex flex-col items-start py-6 px-3 mt-14 z-50 w-full  border-zinc-400 border-t-[2px] border-b-[2px]   rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6 xl:py-8 2xl:py-10 xl:mt-8 2xl:mt-12 "
+          className="flex flex-col items-start py-6 px-3 mt-14 z-50 w-full  rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6 xl:py-8 2xl:py-10 xl:mt-8 2xl:mt-12 "
         >
           <h6 className="text-4xl  text-balance  text-primary font-title2 font-bold md:text-5xl  xl:text-6xl 2xl:text-7xl">
             Cuidamos lo que te conecta
@@ -209,11 +232,6 @@ const Details = () => {
             tranquilidad de que tu dispositivo está en buenas manos.
           </p>
         </article>
-      </section>
-      <section classsName="w-full h-[50vh] md:h-[70vh] ">
-        <figure className="w-full h-full md:h-[70vh]">
-          <img src={imgbg} alt=""  className="object-cover w-full h-full"/>
-        </figure>
       </section>
     </>
   );
