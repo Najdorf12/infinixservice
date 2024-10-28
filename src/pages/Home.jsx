@@ -8,7 +8,7 @@ const Home = () => {
         id="home"
         className="z-50 w-full h-[96vh] relative flex flex-col items-center md:h-screen"
       >
-        <nav className="bg-gradient-to-tr mx-auto self-center from-primary via-zinc-800 to-zinc-800 w-full absolute top-0 shadow-md shadow-white flex justify-evenly py-2 font-title2 text-base text-white rounded-b-full md:w-[80%] xl:text-lg 2xl:text-xl z-50 2xl:py-3">
+        <nav className="bg-gradient-to-tr mx-auto self-center from-primary via-zinc-800 to-zinc-900 w-full absolute top-0 shadow-md shadow-white flex justify-evenly py-2 font-title2 text-base text-white rounded-b-full md:w-[80%] xl:text-lg 2xl:text-xl z-50 2xl:py-3">
           <button className="font-title2">Infinix</button>
             <button className="flex items-center justify-center rounded-full cursor-poisnter hover:scale-105 hover:text-primary duration-400">
           <a href="#third-section">
