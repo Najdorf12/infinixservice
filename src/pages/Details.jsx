@@ -33,7 +33,7 @@ const Details = () => {
       icon: icon8,
       title: "Reemplazo de pantalla táctil",
       subtitle:
-        "Cambio de módulo completo del equipo o ,en su defecto, cambio de vidrio si es posible. Trabajamos con lOs mejores pegamentos y máquinas de secado",
+        "Cambio de módulo completo del equipo o ,en su defecto, cambio de vidrio si es posible. Trabajamos con los mejores pegamentos y máquinas de secado",
     },
     {
       icon: icon2,
@@ -107,7 +107,7 @@ const Details = () => {
                 </li>
                 <button
                   onClick={() => openModal(icon.title, icon.subtitle)}
-                  className="ml-2 text-stone-300 blue-200  text-sm font-title font-normal  absolute bottom-[2px] right-[2px]  flex items-center justify-between gap-3 bg-zinc-800 rounded-3xl pl-3 pr-[1px] py-[1px] border-[2px] border-zinc-600 xl:text-base xl:pl-5 xl:gap-4 2xl:text-xl"
+                  className="ml-2 text-stone-300 blue-200  text-sm font-title font-normal  absolute bottom-[2px] right-[2px]  flex items-center justify-between gap-3 bg-zinc-800 rounded-3xl pl-3 pr-[1px] py-[1px] border-[2px] border-zinc-600 xl:text-base xl:pl-5 xl:gap-4 2xl:text-xl shadow-sm shadow-zinc-900"
                 >
                   Ver más
                   <i className="bx bx-right-arrow-alt text-primary text-xl rotate-[-45deg] rounded-full bg-zinc-600 w-6 h-6 flex items-center justify-center xl:text-2xl 2xl:w-7 2xl:h-7 "></i>
@@ -120,17 +120,17 @@ const Details = () => {
         {/* Modal */}
         {isModalOpen && (
           <div className="absolute h-screen w-full inset-0 flex items-center justify-center z-[100] bg-zinc-900 bg-opacity-50 ">
-            <div className="relative bg-zinc-900 border-[2px] border-stone-400 shadow-lg shadow-zinc-900 pt-6 pb-14 px-4 rounded-lg w-[90%] max-w-md xl:max-w-[570px] xl:pb-16 xl:px-6">
+            <div className="relative bg-zinc-900 border-[2px] border-stone-500 shadow-lg shadow-zinc-900 pt-6 pb-14 px-4 rounded-lg w-[90%] max-w-md xl:max-w-[570px] xl:pb-16 xl:px-6">
               <button
                 onClick={closeModal}
-                className="text-primary h-6 w-6 flex justify-center items-center red-500 float-right font-bold absolute right-3 top-2 bg-zinc-700 p-2 rounded-full border border-zinc-500 shadow-md shadow-zinc-900 xl:h-7 xl:w-7"
+                className="text-primary h-6 w-6 flex justify-center items-center red-500 float-right font-bold absolute right-3 top-2 bg-zinc-700 p-2 rounded-full border border-zinc-500 shadow-md shadow-zinc-800 xl:h-7 xl:w-7"
               >
                 X
               </button>
               <h2 className="text-2xl text-balance font-semibold mb-2  font-title2 text-primary xl:text-4xl ">
                 {currentTitle}
               </h2>
-              <div className="w-full h-[2px] bg-zinc-500 mt-2 xl:mt-3 2xl:mt-4"></div>
+              <div className="w-full h-[2px] bg-stone-400 mt-2 xl:mt-3 2xl:mt-4"></div>
               <p className=" text-stone-400 text-balance text-base mt-3 xl:mt-4 font-text3 xl:text-lg">
                 {currentSubtitle}
               </p>
@@ -138,7 +138,7 @@ const Details = () => {
                 href="https://api.whatsapp.com/send/?phone=5491176159960&text&type=phone_number&app_absent=0"
                 target="_blank"
               >
-                <button className="ml-2 text-primary blue-200 text-sm font-title absolute bottom-2 right-2  flex items-center justify-between gap-3 bg-zinc-800 rounded-3xl pl-3 pr-[1px] py-[1px] border-[2px] border-zinc-600 xl:pl-5 xl:gap-4 xl:text-xl">
+                <button className="ml-2 text-primary blue-200 text-sm font-title absolute bottom-2 right-2  flex items-center justify-between gap-3 bg-zinc-800 rounded-3xl pl-3 pr-[1px] py-[1px] border-[2px] border-stone-600 xl:pl-5 xl:gap-4 xl:text-xl shadow-sm shadow-zinc-800">
                   Escríbenos
                   <i className="bx bx-right-arrow-alt text-primary text-xl rotate-[-45deg] rounded-full bg-zinc-600 w-6 h-6 flex items-center justify-center xl:text-2xl xl:w-7 xl:h-7 "></i>
                 </button>
