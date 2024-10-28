@@ -99,7 +99,7 @@ const Details = () => {
               </figure>
               <ul
                 id="box-glass3"
-                className="font-title h-full text-base text-balance flex flex-col justify-start shadow-md shadow-zinc-900 pl-3 pr-4 py-1 w-[70%] rounded-2xl rounded-l-none text-stone-400 font-semibold gap-1 xl:text-lg border-zinc-400 border-t-[2px] border-b-[2px]  2xl:text-xl  relative xl:pr-28"
+                className="font-title h-full text-base text-balance flex flex-col justify-start shadow-md shadow-zinc-900 pl-3 pr-4 py-1 w-[70%] rounded-2xl rounded-l-none text-stone-300 font-semibold gap-1 xl:text-lg border-zinc-400 border-t-[2px] border-b-[2px]  2xl:text-xl  relative xl:pr-28 xl:bg-zinc-800 "
               >
                 <li className="relative flex items-start gap-2  lg:h-[32px] xl:gap-2 xl:h-[40px] 2xl:h-[56px] ">
                   <i className="text-primary bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>
@@ -131,7 +131,7 @@ const Details = () => {
                 {currentTitle}
               </h2>
               <div className="w-full h-[2px] bg-zinc-500 mt-2 xl:mt-3 2xl:mt-4"></div>
-              <p className=" text-zinc-400 text-balance text-base mt-3 xl:mt-4 font-text3 xl:text-lg">
+              <p className=" text-stone-400 text-balance text-base mt-3 xl:mt-4 font-text3 xl:text-lg">
                 {currentSubtitle}
               </p>
               <a
@@ -178,7 +178,7 @@ const Details = () => {
         <div className="h-24 w-1/2 bg-teal-800 "> </div>
       </div> */}
       <section classsName="w-full flex flex-col">
-        <div className="w-full flex justify-end bg-zinc-800">
+        <div className="w-full flex justify-end bg-zinc-900">
           <div
             style={{
               clipPath: "polygon(0 0, 100% 0, 100% 100%, 100% 66%, 52% 20%)",
@@ -189,7 +189,7 @@ const Details = () => {
         <figure className="w-full  h-[40vh] md:h-[70vh]">
           <img src={imgbg} alt="" className="object-cover w-full h-full" />
         </figure>
-        <div className="w-full flex  bg-zinc-800">
+        <div className="w-full flex  bg-zinc-900">
           <div
             style={{
               clipPath: "polygon(0 0, 21% 67%, 100% 100%, 0 98%, 0 59%)",

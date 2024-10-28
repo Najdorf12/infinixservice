@@ -7,7 +7,7 @@ const About = () => {
     <>
       <section
         id="second_section"
-        className="w-full h-auto font-title overflow-hidden relative flex flex-col justify-between pb-14 pt-4 2xl:min-h-screen xl:pt-14 xl:pb-20  2xl:pb-28  bg-zinc-800"
+        className="w-full h-auto font-title overflow-hidden relative flex flex-col justify-between pb-14 pt-4 2xl:min-h-screen xl:pt-14 xl:pb-20  2xl:pb-28  bg-zinc-900"
       >
         <div className=" z-50 flex gap-2 flex-col justify-center items-center py-6 xl:gap-4 ">
           <div
