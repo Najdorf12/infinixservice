@@ -125,7 +125,7 @@ const Details = () => {
 
         {/* Modal */}
         {isModalOpen && (
-          <div className="fixed inset-0 flex items-center justify-center z-[100] bg-black bg-opacity-50 ">
+          <div className="absolute h-screen w-full inset-0 flex items-center justify-center z-[100] bg-black bg-opacity-50 ">
             <div className="relative bg-zinc-800 border border-pastel shadow-lg shadow-zinc-900 pt-6 pb-14 px-4 rounded-lg w-[90%] max-w-md xl:max-w-[570px] xl:pb-16 xl:px-6">
               <button
                 onClick={closeModal}
