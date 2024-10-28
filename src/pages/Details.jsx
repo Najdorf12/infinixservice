@@ -39,37 +39,37 @@ const Details = () => {
       icon: icon2,
       title: "Sustitución de batería",
       subtitle:
-        "Realizamos cambios de baterías con su debida prueba de funcionamiento y rendimiento en el equipo",
+        "Realizamos cambios de baterías con su debida prueba de funcionamiento y rendimiento en el equipo.",
     },
     {
       icon: icon4,
       title: "Reparación de cámaras",
       subtitle:
-        "Colocamos cámaras originales que son compatibles con tu modelo Infinix, tanto la principal como la selfie. También cambiamos vidrios de cámaras externos",
+        "Colocamos cámaras originales que son compatibles con tu modelo Infinix, tanto la principal como la selfie. También cambiamos vidrios de cámaras externos.",
     },
     {
       icon: icon7,
       title: "Solución de problemas de sistema operativo",
       subtitle:
-        "Realizamos reinstalación de software, actualizaciones, trabajos de fallas en errores de software",
+        "Realizamos reinstalación de software, actualizaciones y trabajos de fallas en errores de software.",
     },
     {
       icon: icon1,
       title: "Reparación de audio y altavoces",
       subtitle:
-        "Ante cuanlquier inconveniente de sonido contamos con cambio auriculares y buzzer altavoz",
+        "Ante cualquier inconveniente de sonido contamos con cambio auriculares y buzzer altavoz.",
     },
     {
       icon: icon10,
       title: "Reparación de dispositivos mojados",
       subtitle:
-        "Trabajamos con equipos mojados, realizamos baños químicos y tenemos todas las herramientas necesarias para poder revivir cualquier dispositivo que haya tenido contacto con el agua, no damos ningún celular por perdido.",
+        "Trabajamos con equipos mojados, realizamos baños químicos y tenemos todas las herramientas necesarias para poder revivir cualquier dispositivo que haya tenido contacto con el agua. No damos ningún celular por perdido.",
     },
     {
       icon: icon6,
       title: "Solución de cortocircuitos en placa",
       subtitle:
-        "Al trabajar con microscopios de alta precisión y micro soldaduras, solucionamos la mayoría de los cortos en placa que se pueden producir en tu celular, se por uso, golpes o fallas de fabricas del equipo",
+        "Al trabajar con microscopios de alta precisión y micro soldaduras, solucionamos la mayoría de los cortos en placa que se pueden producir en tu celular, sea por uso, por golpes o fallas de fabrica del equipo",
     },
     {
       icon: icon9,
