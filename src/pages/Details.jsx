@@ -81,7 +81,7 @@ const Details = () => {
 
   return (
     <>
-     {/* <div className="w-full flex justify-end bg-white">
+      {/* <div className="w-full flex justify-end bg-white">
          <div
             style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 69% 100%)" }}
             className="w-1/2 h-14 bg-primary"
@@ -140,10 +140,15 @@ const Details = () => {
               <p className=" text-zinc-400 text-balance text-base mt-3 xl:mt-4 font-text3 xl:text-lg">
                 {currentSubtitle}
               </p>
-              <button className="ml-2 text-primary blue-200 text-sm font-title absolute bottom-2 right-2  flex items-center justify-between gap-3 bg-zinc-800 rounded-3xl pl-3 pr-[1px] py-[1px] border-[2px] border-zinc-600 xl:pl-5 xl:gap-4 xl:text-xl">
-                Escríbenos
-                <i className="bx bx-right-arrow-alt text-primary text-xl rotate-[-45deg] rounded-full bg-zinc-600 w-6 h-6 flex items-center justify-center xl:text-2xl xl:w-7 xl:h-7 "></i>
-              </button>
+              <a
+                href="https://api.whatsapp.com/send/?phone=5491176159960&text&type=phone_number&app_absent=0"
+                target="_blank"
+              >
+                <button className="ml-2 text-primary blue-200 text-sm font-title absolute bottom-2 right-2  flex items-center justify-between gap-3 bg-zinc-800 rounded-3xl pl-3 pr-[1px] py-[1px] border-[2px] border-zinc-600 xl:pl-5 xl:gap-4 xl:text-xl">
+                  Escríbenos
+                  <i className="bx bx-right-arrow-alt text-primary text-xl rotate-[-45deg] rounded-full bg-zinc-600 w-6 h-6 flex items-center justify-center xl:text-2xl xl:w-7 xl:h-7 "></i>
+                </button>
+              </a>
             </div>
           </div>
         )}
@@ -179,9 +184,11 @@ const Details = () => {
         <div className="h-24 w-1/2 bg-teal-800 "> </div>
       </div> */}
       <section classsName="w-full flex flex-col">
-          <div className="w-full flex justify-end bg-zinc-800">
-         <div
-            style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 100% 66%, 52% 20%)" }}
+        <div className="w-full flex justify-end bg-zinc-800">
+          <div
+            style={{
+              clipPath: "polygon(0 0, 100% 0, 100% 100%, 100% 66%, 52% 20%)",
+            }}
             className="w-1/2 h-14 bg-primary"
           ></div>
         </div>
@@ -189,16 +196,17 @@ const Details = () => {
           <img src={imgbg} alt="" className="object-cover w-full h-full" />
         </figure>
         <div className="w-full flex  bg-zinc-800">
-         
           <div
-            style={{ clipPath: "polygon(0 0, 21% 67%, 100% 100%, 0 98%, 0 59%)" }}
+            style={{
+              clipPath: "polygon(0 0, 21% 67%, 100% 100%, 0 98%, 0 59%)",
+            }}
             className="w-1/2 h-14 bg-primary xl:h-16"
           ></div>
         </div>
       </section>
       <section
         id="brand-section"
-        className="w-full h-screen relative flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20  "
+        className="w-full h-screen relative flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20 border-b-[2px] "
       >
         <figure className="w-[60%] h-20 absolute z-50 bottom-3 left-3 xl:bottom-6 xl:w-[50%] xl:left-6">
           <div className="pattern-primary"></div>
@@ -214,7 +222,7 @@ const Details = () => {
 
         <article
           id="box-glass4"
-          className="flex flex-col items-start py-6 px-3 mt-14 z-50 w-full  rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6 xl:py-8 2xl:py-10 xl:mt-8 2xl:mt-12 "
+          className="flex flex-col items-start py-6 px-3 mt-14 z-50 w-full  border-zinc-400 border-t-[2px] border-b-[2px]   rounded-2xl max-w-[500px] sm:px-4 xl:max-w-[650px] text-balance  2xl:max-w-[800px] xl:px-6 xl:py-8 2xl:py-10 xl:mt-8 2xl:mt-12 "
         >
           <h6 className="text-4xl  text-balance  text-primary font-title2 font-bold md:text-5xl  xl:text-6xl 2xl:text-7xl">
             Cuidamos lo que te conecta
