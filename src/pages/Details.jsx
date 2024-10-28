@@ -99,7 +99,7 @@ const Details = () => {
               </figure>
               <ul
                 id="box-glass3"
-                className="font-title h-full text-base text-balance flex flex-col justify-start shadow-md shadow-zinc-900 pl-3 pr-4 py-1 w-[70%] rounded-2xl rounded-l-none text-stone-300 font-semibold gap-1 xl:text-lg border-zinc-400 border-t-[2px] border-b-[2px]  2xl:text-xl  relative xl:pr-28 xl:bg-zinc-800 "
+                className="font-title h-full text-base text-balance flex flex-col justify-start shadow-md shadow-zinc-900 pl-3 pr-4 py-1 w-[70%] rounded-2xl rounded-l-none text-stone-300 font-semibold gap-1 xl:text-lg border-zinc-400 border-t-[2px] border-b-[2px]  2xl:text-xl  relative xl:pr-28 xl:bg-gradient-to-tr from-teal-900 via-zinc-800 to-zinc-900 "
               >
                 <li className="relative flex items-start gap-2  lg:h-[32px] xl:gap-2 xl:h-[40px] 2xl:h-[56px] ">
                   <i className="text-primary bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>
