@@ -81,12 +81,6 @@ const Details = () => {
 
   return (
     <>
-      {/* <div className="w-full flex justify-end bg-white">
-         <div
-            style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 69% 100%)" }}
-            className="w-1/2 h-14 bg-primary"
-          ></div>
-        </div> */}
       <section
         id="third-section"
         className="w-full relative bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:items-start 2xl:h-screen "

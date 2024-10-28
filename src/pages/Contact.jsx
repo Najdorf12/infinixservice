@@ -93,7 +93,7 @@ const Contact = () => {
               </button>
             </form>
           </div>
-          <footer className="w-full self-center mt-8 lg:w-auto z-50 lg:mt-6 xl:mt-8 2xl:mt-16">
+          <footer className="w-full self-center mt-8 lg:w-auto z-50 xl:mt-7  2xl:mt-14">
             <ul className="flex gap-8 justify-center items-center text-primary text-4xl lg:text-5xl  xl:gap-12 ">
               <li className="hover:scale-110 hover:text-white duration-500 cursor-pointer z-50">
                 <i className="bx bxl-youtube"></i>
