@@ -33,19 +33,19 @@ const Details = () => {
       icon: icon8,
       title: "Reemplazo de pantalla táctil",
       subtitle:
-        "Cambio de modulo completo del equipo o en su defecto cambio de vidrio si es posible, trabajamos con las mejores pegamentos y maquinas de secado",
+        "Cambio de módulo completo del equipo o ,en su defecto, cambio de vidrio si es posible. Trabajamos con lOs mejores pegamentos y máquinas de secado",
     },
     {
       icon: icon2,
       title: "Sustitución de batería",
       subtitle:
-        "Cambio de baterías con su debida prueba de funcionamiento y rendimiento en el equipo",
+        "Realizamos cambios de baterías con su debida prueba de funcionamiento y rendimiento en el equipo",
     },
     {
       icon: icon4,
       title: "Reparación de cámaras",
       subtitle:
-        "Colocamos cámaras originales que son compatibles con tu modelo Infinix, tanto la principal como la selfie, también cambiamos vidrios de cámaras externos",
+        "Colocamos cámaras originales que son compatibles con tu modelo Infinix, tanto la principal como la selfie. También cambiamos vidrios de cámaras externos",
     },
     {
       icon: icon7,
@@ -57,7 +57,7 @@ const Details = () => {
       icon: icon1,
       title: "Reparación de audio y altavoces",
       subtitle:
-        "Ante inconveniente de sonido contamos con cambio auriculares y buzzer altavoz",
+        "Ante cuanlquier inconveniente de sonido contamos con cambio auriculares y buzzer altavoz",
     },
     {
       icon: icon10,
