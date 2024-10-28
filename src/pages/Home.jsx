@@ -39,7 +39,7 @@ const Home = () => {
                 Visita nuestra Tienda
               </p>
               <button className="button">
-                <a href="https://www.grupolacomunidad.com.ar/" target="_blank">
+                <a href="https://www.grupolacomunidad.com.ar/infinix" target="_blank">
                   <div className="button__circle">
                     <svg
                       viewBox="0 0 14 15"

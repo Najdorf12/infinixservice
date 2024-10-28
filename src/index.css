@@ -72,6 +72,23 @@
     transform 200ms;
   font-weight: 600;
 }
+.button2 {
+  cursor: pointer;
+  border: none;
+  background: rgb(92, 136, 26);
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  place-content: center;
+  transition:
+    background 300ms,
+    transform 200ms;
+  font-weight: 600;
+}
 
 .button__text {
   position: absolute;
@@ -127,3 +144,5 @@
     rotate: 360deg;
   }
 }
+
+

@@ -174,9 +174,6 @@ const Details = () => {
         </div>
       </section>
 
-      {/*  <div className="h-24 w-full flex justify-end items-center lg:hidden">
-        <div className="h-24 w-1/2 bg-teal-800 "> </div>
-      </div> */}
       <section classsName="w-full flex flex-col">
         <div className="w-full flex justify-end bg-zinc-900">
           <div
@@ -186,9 +183,50 @@ const Details = () => {
             className="w-1/2 h-14 bg-primary"
           ></div>
         </div>
-        <figure className="w-full  h-[40vh] md:h-[70vh]">
+
+        <figure className="w-full  h-[40vh] md:h-[70vh] relative">
           <img src={imgbg} alt="" className="object-cover w-full h-full" />
+          <div className="flex justify-center items-center  gap-3 2xl:gap-4 absolute -bottom-14 left-0 rounded-tr-2xl lg:bottom-0 pt-2  pr-2 pb-1 lg:pb-3 lg:w-[30%] 2xl:[25%] bg-zinc-900 z-50">
+            <p className="text-zinc-300 font-title text-lg xl:text-xl 2xl:text-2xl">
+              Visita nuestra Tienda
+            </p>
+            <button className="button">
+              <a
+                href="https://www.grupolacomunidad.com.ar/infinix"
+                target="_blank"
+              >
+                <div className="button__circle">
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon"
+                    width="14"
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    width="14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon button__icon--copy"
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </a>
+            </button>
+          </div>
         </figure>
+
         <div className="w-full flex  bg-zinc-900">
           <div
             style={{
@@ -198,6 +236,7 @@ const Details = () => {
           ></div>
         </div>
       </section>
+
       <section
         id="brand-section"
         className="w-full h-screen relative flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20"
