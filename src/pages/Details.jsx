@@ -120,7 +120,7 @@ const Details = () => {
         {/* Modal */}
         {isModalOpen && (
           <div className="absolute h-screen w-full inset-0 flex items-center justify-center z-[100] bg-zinc-900 bg-opacity-50 ">
-            <div className="relative bg-zinc-900 border border-pastel shadow-lg shadow-zinc-900 pt-6 pb-14 px-4 rounded-lg w-[90%] max-w-md xl:max-w-[570px] xl:pb-16 xl:px-6">
+            <div className="relative bg-zinc-900 border-[2px] border-stone-400 shadow-lg shadow-zinc-900 pt-6 pb-14 px-4 rounded-lg w-[90%] max-w-md xl:max-w-[570px] xl:pb-16 xl:px-6">
               <button
                 onClick={closeModal}
                 className="text-primary h-6 w-6 flex justify-center items-center red-500 float-right font-bold absolute right-3 top-2 bg-zinc-700 p-2 rounded-full border border-zinc-500 shadow-md shadow-zinc-900 xl:h-7 xl:w-7"
