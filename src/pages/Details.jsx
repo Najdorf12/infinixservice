@@ -192,7 +192,7 @@ const Details = () => {
             </p>
             <button className="button">
               <a
-                href="https://www.grupolacomunidad.com.ar/infinix"
+                href="https://www.grupolacomunidad.com.ar/products/infinix"
                 target="_blank"
               >
                 <div className="button__circle">
