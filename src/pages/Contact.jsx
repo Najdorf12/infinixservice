@@ -12,7 +12,7 @@ const Contact = () => {
         <section className="relative z-10 w-full lg:w-1/2 flex flex-col justify-start items-center overflow-hidden">
           <article
             id="box-glass"
-            className="py-6  px-2 w-full  flex flex-col items-center justify-center text-center lg:text-left shadow-lg shadow-zinc-900 rounded-b-3xl bg-gradient-to-bl from-teal-800 via-zinc-800 to-zinc-800 border-b-[2px] border-zinc-600"
+            className="py-6  px-2 w-full  flex flex-col items-center justify-center text-center lg:text-left shadow-lg shadow-zinc-900 rounded-b-3xl bg-gradient-to-bl from-teal-800 via-zinc-800 to-zinc-800 border-b-[2px] border-zinc-600 xl:border-r-[2px] "
           >
             <h2
               style={{ animation: "appear 2s ease-out" }}
@@ -113,7 +113,7 @@ const Contact = () => {
         </section>
 
         {/* Contenedor de la imagen */}
-        <div className="w-full absolute h-full hidden lg:flex lg:w-1/2 lg:relative ">
+        <div className="w-full absolute h-full hidden lg:flex lg:w-1/2 lg:relative">
           <img className="w-full h-full object-cover" src={img2} alt="" />
         </div>
       </section>

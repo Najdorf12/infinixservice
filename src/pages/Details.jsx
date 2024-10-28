@@ -89,7 +89,7 @@ const Details = () => {
         </div> */}
       <section
         id="third-section"
-        className="w-full relative bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:items-start 2xl:h-screen border-b-[2px] border-zinc-700"
+        className="w-full relative bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:items-start 2xl:h-screen "
       >
         <div className="z-50 lg:w-1/2 flex flex-col justify-center items-center gap-3 lg:py-12 xl:gap-4 2xl:gap-6 ">
           {iconsTech.map((icon, i) => (
@@ -206,7 +206,7 @@ const Details = () => {
       </section>
       <section
         id="brand-section"
-        className="w-full h-screen relative flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20 border-b-[2px] "
+        className="w-full h-screen relative flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20"
       >
         <figure className="w-[60%] h-20 absolute z-50 bottom-3 left-3 xl:bottom-6 xl:w-[50%] xl:left-6">
           <div className="pattern-primary"></div>
