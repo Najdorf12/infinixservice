@@ -2,7 +2,7 @@ import img2 from "/bg26.jpg";
 import { useForm } from "react-hook-form";
 import { Resend } from "resend";  // Asegúrate de que Resend esté instalado
 
-const resend = new Resend('API_KEY_DEL_CLIENTE');
+const resend = new Resend('re_gcgSBD6n_NHfcokuaS34gDp7Rc4bm2yKp');
 
 const Contact = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
