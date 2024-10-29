@@ -1,36 +1,30 @@
 import img2 from "/bg26.jpg";
 import { useForm } from "react-hook-form";
-import { Resend } from "resend";  // Asegúrate de que Resend esté instalado
-
-const resend = new Resend('re_gcgSBD6n_NHfcokuaS34gDp7Rc4bm2yKp');
+import { Resend } from "resend";  
 
 const Contact = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
  
   const onSubmit = async (data) => {
-    console.log(data);
     try {
-      const response = await resend.emails.send({
-        from: 'Acme <onboarding@resend.dev>',
-        to: ['agustin.morro@gmail.com'],
-        subject: 'Nuevo mensaje de contacto',
-        html: `
-          <h1>Detalles del mensaje:</h1>
-          <p><strong>Email:</strong> ${data.email}</p>
-          <p><strong>WhatsApp:</strong> ${data.wttp}</p>
-          <p><strong>Mensaje:</strong> ${data.message}</p>
-        `,
-      });
+        const response = await fetch('https://infinix-backend.vercel.app/send-email', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        });
 
-      if (response.error) {
-        console.error("Error en el envío de correo:", response.error);
-      } else {
-        console.log("Correo enviado con éxito:", response.data);
-      }
-    } catch (error) {
-      console.error("Error en el envío de correo:", error);
+        const result = await response.json();
+        if (!response.ok) {
+            throw new Error(result.message || 'Error desconocido');
+        }
+        
+        console.log('Correo enviado:', result);
+    } catch (err) {
+        console.error('Error en la solicitud:', err.message);
     }
-  };
+};
 
   return (
     <>
