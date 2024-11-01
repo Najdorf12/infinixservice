@@ -118,7 +118,9 @@ const Contact = () => {
             </form>
           </div>
         </section>
-
+        <figure className="w-[60%] h-20 absolute z-50 bottom-3 right-3 xl:bottom-6 xl:w-[50%] xl:right-6">
+          <div className="pattern-primary"></div>
+        </figure>
         <div className="w-full absolute h-full hidden lg:flex  ">{/* lg:w-1/2 lg:relative */}
           <img className="w-full h-full object-cover grayscale-[1]" src={imgST2} alt="" />
         </div>
