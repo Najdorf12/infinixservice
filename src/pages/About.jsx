@@ -12,7 +12,7 @@ const About = () => {
         <div className=" z-50 flex gap-2 flex-col justify-center items-center py-6 xl:gap-4 ">
           <div
             id="box-glass2"
-            className="border-[2px] border-pastel flex w-[91%] max-w-[700px] h-[200px] z-50 rounded-2xl md:h-[220px] xl:max-w-[900px] xl:h-[250px]  md:justify-between 2xl:max-w-[950px] shadow-lg shadow-zinc-600 bg-gradient-to-tl from-teal-800 via-zinc-800 to-zinc-800"
+            className="border-[2px] border-pastel flex w-[91%] max-w-[700px] h-[200px] z-50 rounded-2xl md:h-[220px] xl:max-w-[900px] xl:h-[250px]  md:justify-between 2xl:max-w-[950px] shadow-lg shadow-zinc-600 bg-gradient-to-tl from-primary via-zinc-800 to-zinc-800"
           >
             <article className="font-text3 text-balance flex flex-col pl-3 pt-2 relative text-zinc-400 lg:pt-4 lg:pl-6">
               <h6 className="text-lg font-medium md:text-xl text-primary xl:text-2xl">
@@ -35,7 +35,7 @@ const About = () => {
           <section className="flex w-full justify-center gap-2 z-50 xl:gap-3">
             <div
               id="box-glass2"
-              className="border-[2px] border-pastel w-[45%] h-[220px] rounded-2xl max-w-[348px] xl:max-w-[450px] xl:h-[240px] 2xl:max-w-[470px] shadow-lg shadow-zinc-600 bg-gradient-to-tl from-teal-800 via-zinc-800 to-zinc-800"
+              className="border-[2px] border-pastel w-[45%] h-[220px] rounded-2xl max-w-[348px] xl:max-w-[450px] xl:h-[240px] 2xl:max-w-[470px] shadow-lg shadow-zinc-600 bg-gradient-to-tl from-primary via-zinc-800 to-zinc-800"
             >
               <article className="font-text3 text-balance flex flex-col pl-3 pt-2 xl:pt-4 xl:pl-4">
                 <h6 className="text-lg font-medium md:text-xl text-primary  xl:text-2xl">
@@ -57,7 +57,7 @@ const About = () => {
 
             <div
               id="box-glass2"
-              className="border-[2px] border-pastel w-[45%] h-[220px]  rounded-2xl max-w-[348px] xl:max-w-[450px] xl:h-[240px] 2xl:max-w-[470px] shadow-lg shadow-zinc-600 bg-gradient-to-tl from-teal-800 via-zinc-800 to-zinc-800"
+              className="border-[2px] border-pastel w-[45%] h-[220px]  rounded-2xl max-w-[348px] xl:max-w-[450px] xl:h-[240px] 2xl:max-w-[470px] shadow-lg shadow-zinc-600 bg-gradient-to-tl from-primary via-zinc-800 to-zinc-800"
             >
               <article className="font-text3 text-balance flex flex-col pl-3 pt-2 xl:pt-4 xl:pl-4">
                 <h6 className="text-lg font-medium md:text-xl text-primary xl:text-2xl">
@@ -79,13 +79,13 @@ const About = () => {
         </div>
 
         {/* El último artículo toma el espacio restante */}
-        <article className="w-[95%] mt-3 py-6 rounded-3xl self-center z-50 text-balance flex flex-col justify-start items-center relative flex-grow bg-gradient-to-br from-teal-800 via-zinc-800 to-zinc-800 shadow-xl shadow-zinc-500 max-w-[500px] lg:max-w-[90%] lg:py-12 xl:py-14 2xl:py-16 xl:mt-6    border-pastel border-[2px] 2xl:max-w-[85%] ">
+        <article className="w-[95%] mt-3 py-6 rounded-3xl self-center z-50 text-balance flex flex-col justify-start items-center relative flex-grow bg-gradient-to-tl from-primary via-zinc-800 to-zinc-800 shadow-xl shadow-zinc-500 max-w-[500px] lg:max-w-[90%] lg:py-12 xl:py-14 2xl:py-16 xl:mt-6    border-pastel border-[2px] 2xl:max-w-[85%] ">
           <div className=" flex flex-col items-center  ">
             <h5 className="font-title2 text-4xl font-medium z-50  text-center leading  lg:text-nowrap lg:text-5xl xl:text-6xl 2xl:text-7xl text-white ">
               ¿Por qué elegir Infinix Service?
             </h5>
             <div className="w-[90%] h-[2px] bg-primary mt-3 self-center lg:mt-6 lg:w-[95%] 2xl:w-[90%]"></div>
-            <p className="font-title px-2 text-balance text-sm font-normal text-center max-w-[450px] mt-4 lg:text-base lg:mt-6 lg:max-w-[950px] xl:max-w-[1050px] xl:text-lg 2xl:text-xl 2xl:max-w-[1200px] 2xl:mt-8 text-zinc-400   xl:text-pretty  ">
+            <p className="font-title px-2 text-balance text-sm font-normal text-center max-w-[450px] mt-4 lg:text-base lg:mt-6 lg:max-w-[950px] xl:max-w-[1050px] xl:text-lg 2xl:text-xl 2xl:max-w-[1200px] 2xl:mt-8 text-zinc-300   xl:text-pretty  ">
               Somos un servicio técnico especializado en Infinix, garantizamos
               reparaciones precisas y duraderas. Contamos con laboratorio
               propio. Desde simples ajustes hasta las reparaciones más

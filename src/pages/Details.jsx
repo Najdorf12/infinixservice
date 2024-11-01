@@ -83,7 +83,7 @@ const Details = () => {
     <>
       <section
         id="third-section"
-        className="w-full relative bg-gradient-to-tl from-teal-900 via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:items-start 2xl:h-screen "
+        className="w-full relative bg-gradient-to-tl from-primary via-zinc-800 to-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:items-start 2xl:h-screen "
       >
         <div className="z-50 lg:w-1/2 flex flex-col justify-center items-center gap-3 lg:py-12 xl:gap-4 2xl:gap-6 ">
           {iconsTech.map((icon, i) => (
@@ -93,13 +93,13 @@ const Details = () => {
             >
               <figure
                 id="box-glass4"
-                className="w-20 flex justify-center items-center p-3 rounded-2xl rounded-r-none shadow-md shadow-zinc-900 bg-gradient-to-tl from-teal-800 via-zinc-800 to-transparent border-zinc-400 border-t-[2px] border-b-[2px] lg:w-14 xl:w-16 2xl:w-20"
+                className="w-20 flex justify-center items-center p-3 rounded-2xl rounded-r-none shadow-md shadow-zinc-900 bg-gradient-to-tl from-primary first:via-zinc-800 to-transparent border-zinc-400 border-t-[2px] border-b-[2px] lg:w-14 xl:w-16 2xl:w-20"
               >
                 <img className="w-full" src={icon.icon} alt="icon" />
               </figure>
               <ul
                 id="box-glass3"
-                className="font-title h-full text-base text-balance flex flex-col justify-start shadow-md shadow-zinc-900 pl-3 pr-4 py-1 w-[70%] rounded-2xl rounded-l-none text-stone-300 font-semibold gap-1 xl:text-lg border-zinc-400 border-t-[2px] border-b-[2px]  2xl:text-xl  relative xl:pr-28 xl:bg-gradient-to-tr from-teal-900 via-zinc-800 to-zinc-900 "
+                className="font-title h-full text-base text-balance flex flex-col justify-start shadow-md shadow-zinc-900 pl-3 pr-4 py-1 w-[70%] rounded-2xl rounded-l-none text-stone-300 font-semibold gap-1 xl:text-lg border-zinc-400 border-t-[2px] border-b-[2px]  2xl:text-xl  relative xl:pr-28 xl:bg-gradient-to-tr from-primary via-zinc-800 to-zinc-900 "
               >
                 <li className="relative flex items-start gap-2  lg:h-[32px] xl:gap-2 xl:h-[40px] 2xl:h-[56px] ">
                   <i className="text-primary bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>
