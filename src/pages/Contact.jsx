@@ -1,4 +1,5 @@
-import img2 from "/bg26.jpg";
+import imgST from "/st/st21.jpeg"
+import imgST2 from "/st/st22.jpg"
 import { useForm } from "react-hook-form";
 import { Resend } from "resend";  
 
@@ -30,12 +31,12 @@ const Contact = () => {
     <>
       <section
         id="contact-section"
-        className="w-full relative bg-gradient-to-br lg:bg-gradient-to-tl from-teal-800 via-zinc-800 to-zinc-900 h-screen flex flex-col lg:flex-row lg:h-screen pb-8 lg:pb-0"
+        className="w-full relative bg-gradient-to-br lg:bg-gradient-to-tl from-zinc-500 via-zinc-800 to-zinc-900 h-screen flex flex-col lg:flex-row lg:h-screen pb-8 lg:pb-0"
       >
-        <section className="relative z-10 w-full lg:w-1/2 flex flex-col justify-start items-center overflow-hidden">
+        <section  className="relative z-10 w-full lg:w-1/2 flex flex-col justify-start items-center overflow-hidden ">
           <article
             id="box-glass"
-            className="py-6 px-2 w-full flex flex-col items-center justify-center text-center lg:text-left shadow-lg shadow-zinc-900 rounded-b-3xl bg-gradient-to-bl from-teal-800 via-zinc-800 to-zinc-900 border-b-[2px] border-zinc-600 xl:border-r-[2px]"
+            className="py-6 px-2 w-full flex flex-col items-center justify-center text-center lg:text-left shadow-lg shadow-zinc-900 rounded-b-3xl bg-gradient-to-bl from-zinc-500 via-zinc-800 to-zinc-900 border-b-[2px] border-zinc-600 xl:border-r-[2px]"
           >
             <h2
               style={{ animation: "appear 2s ease-out" }}
@@ -49,13 +50,13 @@ const Contact = () => {
             </div>
             <p
               style={{ animation: "appear 3s ease-out" }}
-              className="text-stone-400 mt-3 text-base font-semibold font-title text-center text-balance xl:max-w-[600px] xl:text-lg 2xl:max-w-[700px]"
+              className="text-stone-400 mt-3 text-base font-semibold font-title text-center text-balance xl:max-w-[600px] xl:text-lg 2xl:max-w-[700px] "
             >
               Elige Infinix Service para una experiencia donde la tecnología, la
               eficiencia y la satisfacción del cliente se combinan.
             </p>
           </article>
-          <p className="text-white mt-4 text-center text-balance text-base font-medium font-title max-w-[500px] xl:max-w-[600px] xl:text-lg 2xl:max-w-[700px] 2xl:text-xl">
+          <p className="text-white mt-4 text-center text-balance text-base font-medium font-title max-w-[500px] lg:text-zinc-900 lg:font-semibold xl:max-w-[600px] xl:text-lg 2xl:max-w-[700px] 2xl:text-xl ">
             Ponte en contacto con nosotros o déjanos tu consulta.
           </p>
           <div
@@ -70,7 +71,7 @@ const Contact = () => {
                 <input
                   autoComplete="off"
                   placeholder="john@example.com"
-                  className="peer h-10 w-full border-b-2 border-primary font-title text-zinc-100 bg-transparent placeholder-transparent focus:outline-none focus:border-white"
+                  className="peer h-10 w-full border-b-2 border-primary font-title text-zinc-100 bg-transparent placeholder-transparent focus:outline-none focus:border-white lg:text-zinc-700"
                   required
                   id="email"
                   name="email"
@@ -78,7 +79,7 @@ const Contact = () => {
                   {...register("email")}
                 />
                 <label
-                  className="absolute left-0 -top-3.5 text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-white peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-stone-300 peer-focus:font-medium peer-focus:text-base font-normal"
+                  className="absolute left-0 -top-3.5 text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-white peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-stone-300 peer-focus:font-medium peer-focus:text-base font-normal lg:text-zinc-800 lg:peer-focus:text-stone-500 lg:peer-placeholder-shown:text-zinc-700 lg:peer-placeholder-shown:font-medium"
                   htmlFor="email"
                 >
                   Email
@@ -88,13 +89,13 @@ const Contact = () => {
                 <input
                   autoComplete="off"
                   placeholder="WhatsApp"
-                  className="peer h-10 font-title w-full border-b-2 border-primary text-zinc-100 bg-transparent placeholder-transparent focus:outline-none focus:border-white"
+                  className="peer h-10 w-full border-b-2 border-primary font-title text-zinc-100 bg-transparent placeholder-transparent focus:outline-none focus:border-white lg:text-zinc-700"
                   required
                   id="whatsapp"
                   name="whatsapp"
                   {...register("wttp")}
                 />
-                <label className="absolute left-0 -top-3.5 text-gray-800 text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-zinc-100 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-stone-300 peer-focus:text-base font-normal">
+                <label className="absolute left-0 -top-3.5 text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-white peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-stone-300 peer-focus:font-medium peer-focus:text-base font-normal lg:text-zinc-800 lg:peer-focus:text-stone-500 lg:peer-placeholder-shown:text-zinc-700 lg:peer-placeholder-shown:font-medium">
                   WhatsApp
                 </label>
               </div>
@@ -103,13 +104,13 @@ const Contact = () => {
                 id="box-glass4"
                 placeholder="Escribe tu consulta aquí ..."
                 name="textarea"
-                className="border-[2px] border-white text-white rounded-2xl w-full h-[150px] 2xl:h-[170px] placeholder:text-stone-500 p-2 bg-transparent focus:border-primary focus:outline-none"
+                className="border-[2px] border-white text-white rounded-2xl w-full h-[150px] 2xl:h-[170px] placeholder:text-stone-500 p-2 bg-transparent focus:border-primary focus:outline-none lg:placeholder:text-white"
                 {...register("message")}
               ></textarea>
 
               <button
                 id="box-glass4"
-                className="w-full border-[2px] border-primary py-1 px-4 rounded-full shadow-md shadow-zinc-800 text-stone-200 font-semibold transition duration-200 text-lg font-title"
+                className="w-full border-[2px] border-primary py-1 px-4 rounded-full shadow-md shadow-zinc-800 text-stone-200 font-semibold transition duration-200 text-lg font-title lg:bg-gradient-to-tl "
                 type="submit"
               >
                 Enviar
@@ -118,8 +119,8 @@ const Contact = () => {
           </div>
         </section>
 
-        <div className="w-full absolute h-full hidden lg:flex lg:w-1/2 lg:relative">
-          <img className="w-full h-full object-cover" src={img2} alt="" />
+        <div className="w-full absolute h-full hidden lg:flex  ">{/* lg:w-1/2 lg:relative */}
+          <img className="w-full h-full object-cover grayscale-[1]" src={imgST2} alt="" />
         </div>
       </section>
     </>
