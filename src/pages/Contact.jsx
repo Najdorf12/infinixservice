@@ -15,16 +15,16 @@ const Contact = () => {
             },
             body: JSON.stringify(data),
         });
-
         const result = await response.json();
-        if (!response.ok) {
-            throw new Error(result.message || 'Error desconocido');
+        if (response.ok) {
+          console.log('Correo enviado:', result);
+          reset();  // Resetea el formulario después de enviar el correo
+        } else {
+          console.error('Error al enviar el correo:', result.error);
         }
-        
-        console.log('Correo enviado:', result);
-    } catch (err) {
-        console.error('Error en la solicitud:', err.message);
-    }
+      } catch (err) {
+        console.error('Error en la solicitud:', err);
+      }
 };
 
   return (
