@@ -18,7 +18,6 @@ const Contact = () => {
         const result = await response.json();
         if (response.ok) {
           console.log('Correo enviado:', result);
-          reset();  // Resetea el formulario después de enviar el correo
         } else {
           console.error('Error al enviar el correo:', result.error);
         }
