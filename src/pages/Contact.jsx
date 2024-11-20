@@ -30,26 +30,26 @@ const Contact = () => {
     <>
       <section
         id="contact-section"
-        className="w-full relative bg-gradient-to-br lg:bg-gradient-to-tl from-zinc-500 via-zinc-800 to-zinc-900 h-screen flex flex-col xl:flex-row xl:h-screen pb-8 lg:pb-0"
+        className="w-full relative bg-gradient-to-br lg:bg-gradient-to-tl from-zinc-500 via-zinc-800 to-zinc-900 h-screen flex flex-col lg:flex-row lg:h-screen pb-7 lg:pb-0"
       >
-        <section  className="relative z-10 w-full xl:w-1/2 flex flex-col justify-start items-center overflow-hidden ">
+        <section  className="relative z-10 w-full flex flex-col justify-start items-center overflow-hidden lg:flex-row  lg:gap-12 xl:gap-16 2xl:gap-24 ">
           <article
             id="box-glass"
-            className="py-6 px-2 w-full flex flex-col items-center justify-center text-center xl:text-left rounded-b-2xl bg-gradient-to-l from-transparent via-zinc-700 to-zinc-800 border-b-[2px] border-stone-300 xl:border-r-[2px]"
+            className="py-6 px-2 w-full flex flex-col items-center justify-center text-center xl:text-left rounded-b-2xl bg-gradient-to-l from-transparent via-zinc-700 to-zinc-800 border-b-[2px] border-stone-300 lg:border-transparent lg:rounded-b-none lg:w-[55%] md:h-full lg:from-transparent lg:via-transparent lg:to-zinc-900  "
           >
             <h2
               style={{ animation: "appear 2s ease-out" }}
-              className="text-6xl font-bold font-title2 text-primary lg:text-6xl xl:text-7xl 2xl:text-8xl"
+              className="text-6xl font-bold font-title2 text-primary lg:text-7xl xl:text-8xl 2xl:text-9xl"
             >
               CONTACTO
             </h2>
-            <div className="flex items-start justify-center gap-1 font-title text-white mt-4 text-sm lg:items-center xl:gap-2 lg:text-lg xl:font-semibold">
+            <div className="flex items-start justify-center gap-1 font-title text-white mt-4 text-sm lg:items-center lg:mt-6 xl:gap-2 lg:text-lg xl:font-semibold xl:text-xl 2xl:text-2xl">
               <i className="bx bxs-map text-xl text-primary -ml-[1px] -mt-[5px] 2xl:text-xl"></i>
               Galería París - Av Rivadavia 4975 local 53 - Caballito
             </div>
             <p
               style={{ animation: "appear 3s ease-out" }}
-              className="text-white mt-3 text-base font-semibold font-title text-center text-balance xl:max-w-[600px] xl:text-lg 2xl:max-w-[700px] "
+              className="text-white mt-3 text-base font-semibold font-title text-center text-balance lg:mt-4 lg:text-stone-100 xl:max-w-[600px] xl:text-lg 2xl:max-w-[700px] 2xl:text-xl "
             >
               Elige Infinix Service para una experiencia donde la tecnología, la
               eficiencia y la satisfacción del cliente se combinan.
@@ -58,11 +58,11 @@ const Contact = () => {
          
           <div
             style={{ animation: "slideInFromLeft 1s ease-out" }}
-            className="w-full max-w-md mt-8 lg:mt-8 2xl:mt-12 "
+            className="w-full max-w-md mt-8 lg:mt-0 lg:self-center "
           >
             <form
               onSubmit={handleSubmit(onSubmit)}
-              className="border border-stone-200 space-y-8 px-4 pt-6 pb-9 rounded-xl font-medium 2xl:space-y-9 lg:pt-8 lg:px-6 bg-gradient-to-l from-transparent via-transparent to-zinc-800"
+              className="border border-stone-200 space-y-8 px-4 pt-6 pb-9 rounded-xl font-medium 2xl:space-y-9 lg:pt-8 lg:px-6 lg:py-9 bg-gradient-to-l from-transparent via-transparent to-zinc-800"
               id="box-glass"
             >
               <div className="relative">
