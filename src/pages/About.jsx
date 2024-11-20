@@ -22,10 +22,10 @@ const About = () => {
                 Resolvemos problemas en el día o en un plazo de 24hs dependiendo
                 la falla del equipo y su complejidad.
               </p>
-              <button className="mt-8 flex justify-start items-center gap-1 text-base text-zinc-200 xl:text-xl ">
+             {/*  <button className="mt-8 flex justify-start items-center gap-1 text-base text-zinc-200 xl:text-xl ">
                 Ver más
                 <i className="bx bx-chevron-right text-2xl text-primary xl:text-4xl"></i>
-              </button>
+              </button> */}
             </article>
             <figure className="absolute right-0 -bottom-2 z-50 w-[130px] md:w-[170px] md:relative   md:self-end md:mt-4 lg:w-[210px] xl:w-[230px] lg:right-6 ">
               <img className="w-full" src={iconTech} alt="" />
