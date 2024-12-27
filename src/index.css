@@ -20,7 +20,7 @@
 }
 
 #box-glass {
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(0px);
 }
 #box-glass2 {
