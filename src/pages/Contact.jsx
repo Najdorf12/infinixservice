@@ -1,30 +1,36 @@
-import imgST from "/st/st21.jpeg"
-import imgST2 from "/st/st27.jpg"
+import imgST from "/st/st21.jpeg";
+import imgST2 from "/st/st27.jpg";
 import { useForm } from "react-hook-form";
-import { Resend } from "resend";  
-
+import map from "/map.jpeg";
 const Contact = () => {
-  const { register, handleSubmit, formState: { errors } } = useForm();
- 
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
   const onSubmit = async (data) => {
     try {
-        const response = await fetch('https://infinix-backend.vercel.app/send-email', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data),
-        });
-        const result = await response.json();
-        if (response.ok) {
-          console.log('Correo enviado:', result);
-        } else {
-          console.error('Error al enviar el correo:', result.error);
+      const response = await fetch(
+        "https://infinix-backend.vercel.app/send-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
         }
-      } catch (err) {
-        console.error('Error en la solicitud:', err);
+      );
+      const result = await response.json();
+      if (response.ok) {
+        console.log("Correo enviado:", result);
+      } else {
+        console.error("Error al enviar el correo:", result.error);
       }
-};
+    } catch (err) {
+      console.error("Error en la solicitud:", err);
+    }
+  };
 
   return (
     <>
@@ -32,10 +38,10 @@ const Contact = () => {
         id="contact-section"
         className="w-full relative bg-gradient-to-br lg:bg-gradient-to-tl from-zinc-500 via-zinc-800 to-zinc-900 h-screen flex flex-col lg:flex-row lg:h-screen pb-7 lg:pb-0"
       >
-        <section  className="relative z-10 w-full flex flex-col justify-start items-center overflow-hidden lg:flex-row  lg:gap-12 xl:gap-16 2xl:gap-24 ">
+        <section className="relative z-10 w-full flex flex-col justify-start items-center overflow-hidden lg:flex-row  lg:gap-12 xl:gap-16   2xl:gap-24 ">
           <article
             id="box-glass"
-            className="py-6 px-2 w-full flex flex-col items-center justify-center text-center xl:text-left rounded-b-2xl bg-gradient-to-l from-transparent via-zinc-700 to-zinc-800 border-b-[2px] border-stone-300 lg:border-transparent lg:rounded-b-none lg:w-[55%] md:h-full lg:from-transparent lg:via-transparent lg:to-zinc-900  "
+            className="py-6 px-2 w-full flex flex-col items-center justify-center text-center xl:text-left rounded-b-2xl bg-gradient-to-l from-transparent via-zinc-700 to-zinc-800 border-b-[2px] border-stone-300 lg:border-transparent lg:rounded-b-none lg:w-[55%] md:h-full lg:from-transparent lg:via-transparent lg:to-zinc-900 lg:justify-start lg:pt-[5%] "
           >
             <h2
               style={{ animation: "appear 2s ease-out" }}
@@ -49,13 +55,27 @@ const Contact = () => {
             </div>
             <p
               style={{ animation: "appear 3s ease-out" }}
-              className="text-white mt-3 text-base font-semibold font-title text-center text-balance lg:mt-4 lg:text-stone-100 xl:max-w-[600px] xl:text-lg 2xl:max-w-[700px] 2xl:text-xl "
+              className="text-white mt-3 text-base font-semibold font-title text-center text-balance lg:mt-4 lg:text-stone-900 xl:max-w-[600px] xl:text-lg 2xl:max-w-[700px] 2xl:text-xl "
             >
               Elige Infinix Service para una experiencia donde la tecnología, la
               eficiencia y la satisfacción del cliente se combinan.
             </p>
+            <section className="relative hidden w-full z-50 h-[350px] lg:h-[300px] lg:mt-6  lg:flex justify-center items-center xl:mt-9  ">
+              <a
+                href="https://www.google.com/maps/place/Av.+Rivadavia+4963+local+15,+C1424+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.6178829,-58.4353674,19z/data=!4m13!1m7!3m6!1s0x95bcca414bacf411:0xe1a00f408a151d26!2sAv.+Rivadavia+4963+local+15,+C1424+Cdad.+Aut%C3%B3noma+de+Buenos+Aires!3b1!8m2!3d-34.6176721!4d-58.4357975!3m4!1s0x95bcca414bacf411:0xe1a00f408a151d26!8m2!3d-34.6176721!4d-58.4357975?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+              >
+                <figure className="w-full  mt-6 h-full  flex justify-center items-center">
+                  <img
+                    src={map}
+                    alt="bgHome"
+                    className="w-[90%]  border-zinc-600 lg:h-[330px] object-cover object-center md:object-center rounded-xl shadow-lg shadow-zinc-700 lg:w-full"
+                  />
+                </figure>
+              </a>
+            </section>
           </article>
-         
+
           <div
             style={{ animation: "slideInFromLeft 1s ease-out" }}
             className="w-full max-w-md mt-8 lg:mt-0 lg:self-center "
@@ -116,8 +136,13 @@ const Contact = () => {
             </form>
           </div>
         </section>
-        <div className="w-full absolute h-full lg:flex  ">{/* lg:w-1/2 lg:relative */}
-          <img className="w-full h-full object-cover grayscale-[.6]" src={imgST2} alt="" />
+        <div className="w-full absolute h-full lg:flex  ">
+          {/* lg:w-1/2 lg:relative */}
+          <img
+            className="w-full h-full object-cover grayscale-[.6]"
+            src={imgST2}
+            alt=""
+          />
         </div>
         <figure className="w-[60%] h-12 absolute z-50 bottom-3 right-3 xl:bottom-6 xl:w-[50%] xl:right-6">
           <div className="pattern-primary"></div>
