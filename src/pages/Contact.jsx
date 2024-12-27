@@ -45,7 +45,7 @@ const Contact = () => {
           >
             <h2
               style={{ animation: "appear 2s ease-out" }}
-              className="text-6xl font-bold font-title2 text-primary lg:text-7xl xl:text-8xl 2xl:text-9xl"
+              className="text-6xl font-bold font-title2 text-primary lg:text-7xl xl:text-8xl "
             >
               CONTACTO
             </h2>
