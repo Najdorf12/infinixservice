@@ -62,7 +62,7 @@ const Contact = () => {
             </p>
             <section className="relative hidden w-full z-50 h-[350px] lg:h-[300px] lg:mt-6  lg:flex justify-center items-center xl:mt-9  ">
               <a
-                href="https://www.google.com/maps/place/Av.+Rivadavia+4963+local+15,+C1424+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.6178829,-58.4353674,19z/data=!4m13!1m7!3m6!1s0x95bcca414bacf411:0xe1a00f408a151d26!2sAv.+Rivadavia+4963+local+15,+C1424+Cdad.+Aut%C3%B3noma+de+Buenos+Aires!3b1!8m2!3d-34.6176721!4d-58.4357975!3m4!1s0x95bcca414bacf411:0xe1a00f408a151d26!8m2!3d-34.6176721!4d-58.4357975?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                href="https://www.google.com/maps/place/Galeria+Paris,+Av.+Rivadavia+4975+Local+53,+C1424+CEE,+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.6176824,-58.4387938,17z/data=!4m6!3m5!1s0x95bcca41371bc101:0x3d1720e6e35f3f9c!8m2!3d-34.6176361!4d-58.436125!16s%2Fg%2F11q1s3qnt6?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
               >
                 <figure className="w-full  mt-6 h-full  flex justify-center items-center">
